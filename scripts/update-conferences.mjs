@@ -39,7 +39,12 @@ const CATEGORY_ALIASES = {
     "sloyd",
     "slöjd",
     "slöyd",
+    "sløyd",
+    "slojd",
+    "sloyd education",
     "slöjd education",
+    "craft didactics",
+    "craft education research",
     "slöjdpedagogik",
     "slöjdundervisning",
   ],
@@ -47,24 +52,37 @@ const CATEGORY_ALIASES = {
     "ageing studies",
     "aging studies",
     "age studies",
+    "critical gerontology",
+    "cultural gerontology",
     "gerontology",
     "life course studies",
     "age and culture",
     "older adults",
     "later life",
+    "ageing research",
+    "aging research",
+    "ageing and society",
+    "aging and society",
+    "ageing cultures",
+    "aging cultures",
     "ageing humanities",
     "aging humanities",
   ],
   "Visual art": [
     "visual arts",
+    "visual arts education",
     "contemporary art",
     "fine art",
     "art history",
     "visual culture",
+    "visual culture studies",
+    "curatorial studies",
     "painting",
     "sculpture",
     "photography",
     "new media art",
+    "bildkonst",
+    "konstpedagogik",
   ],
 };
 
@@ -309,19 +327,30 @@ function getProvider() {
 
 function buildQueries() {
   const yearClause = TRACKED_YEARS.join(" OR ");
-  const queries = [];
   const templates = [
     (term) => `"${term}" (conference OR symposium OR congress) (CFP OR "call for papers" OR "call for submissions") (${yearClause}) Europe`,
     (term) => `"${term}" "call for papers" (${yearClause})`,
     (term) => `"${term}" conference (${yearClause})`,
   ];
-
-  for (const category of CATEGORIES) {
+  const categoryBuckets = CATEGORIES.map((category) => {
     const terms = [category, ...(CATEGORY_ALIASES[category] ?? [])];
-    for (const term of terms) {
-      for (const template of templates) {
-        queries.push({ category, query: template(term) });
+    return terms.flatMap((term) => templates.map((template) => ({ category, query: template(term) })));
+  });
+  const queries = [];
+
+  for (let index = 0; ; index += 1) {
+    let added = false;
+
+    for (const bucket of categoryBuckets) {
+      const query = bucket[index];
+      if (query) {
+        queries.push(query);
+        added = true;
       }
+    }
+
+    if (!added) {
+      break;
     }
   }
 
@@ -688,6 +717,39 @@ function dedupeItems(items) {
   return output;
 }
 
+function diversifyResultsByCategory(results, limit) {
+  const buckets = new Map(CATEGORIES.map((category) => [category, []]));
+
+  for (const result of results) {
+    buckets.get(result.category)?.push(result);
+  }
+
+  const output = [];
+  for (let index = 0; output.length < limit; index += 1) {
+    let added = false;
+
+    for (const category of CATEGORIES) {
+      const result = buckets.get(category)?.[index];
+      if (!result) {
+        continue;
+      }
+
+      output.push(result);
+      added = true;
+
+      if (output.length >= limit) {
+        break;
+      }
+    }
+
+    if (!added) {
+      break;
+    }
+  }
+
+  return output;
+}
+
 async function main() {
   const existing = await readExistingDataset();
   const provider = getProvider();
@@ -716,13 +778,14 @@ async function main() {
     }
   }
 
-  const uniqueResults = dedupeItems(
+  const uniqueCandidates = dedupeItems(
     rawResults.map((result) => ({
       title: cleanText(result.title),
       officialUrl: canonicalUrl(result.url),
       ...result,
     })),
-  ).slice(0, Number(process.env.SEARCH_RESULT_LIMIT ?? 80));
+  );
+  const uniqueResults = diversifyResultsByCategory(uniqueCandidates, Number(process.env.SEARCH_RESULT_LIMIT ?? 80));
 
   const normalized = [];
   for (const result of uniqueResults) {
