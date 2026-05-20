@@ -40,6 +40,8 @@ The update script searches public web results for combinations of:
 - current and upcoming years
 - country, continent, and Europe-focused terms
 
+Some fields also use aliases so niche calls are easier to catch. For example, Critical age studies searches include ageing/aging studies, gerontology, life course studies, later life, and ageing humanities; Craft education includes craft pedagogy/research/studies plus sloyd, slöjd, slöyd, slöjdpedagogik, and slöjdundervisning; Visual art includes visual arts, contemporary art, fine art, art history, visual culture, painting, sculpture, photography, and new media art.
+
 It deduplicates by conference title and URL, avoids low-quality aggregator domains where possible, keeps uncertain values as `null` or `unknown`, and writes the normalized dataset back to `public/data/conferences.json`.
 
 ## Search API Keys

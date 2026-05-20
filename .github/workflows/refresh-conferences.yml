@@ -32,8 +32,8 @@ jobs:
           BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           BING_SEARCH_API_KEY: ${{ secrets.BING_SEARCH_API_KEY }}
-          SEARCH_QUERY_LIMIT: 80
-          SEARCH_RESULT_LIMIT: 80
+          SEARCH_QUERY_LIMIT: 140
+          SEARCH_RESULT_LIMIT: 120
 
       - name: Commit updated data
         run: |

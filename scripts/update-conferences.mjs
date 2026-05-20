@@ -30,6 +30,44 @@ const CATEGORIES = [
   "Arts-based research",
 ];
 
+const CATEGORY_ALIASES = {
+  "Craft education": [
+    "craft pedagogy",
+    "craft teacher education",
+    "craft research",
+    "craft studies",
+    "sloyd",
+    "slöjd",
+    "slöyd",
+    "slöjd education",
+    "slöjdpedagogik",
+    "slöjdundervisning",
+  ],
+  "Critical age studies": [
+    "ageing studies",
+    "aging studies",
+    "age studies",
+    "gerontology",
+    "life course studies",
+    "age and culture",
+    "older adults",
+    "later life",
+    "ageing humanities",
+    "aging humanities",
+  ],
+  "Visual art": [
+    "visual arts",
+    "contemporary art",
+    "fine art",
+    "art history",
+    "visual culture",
+    "painting",
+    "sculpture",
+    "photography",
+    "new media art",
+  ],
+};
+
 const COUNTRY_CONTINENTS = new Map(
   [
     ["Austria", "Europe"],
@@ -270,21 +308,19 @@ function getProvider() {
 }
 
 function buildQueries() {
-  const europeCountries = Array.from(COUNTRY_CONTINENTS.entries())
-    .filter(([, continent]) => continent === "Europe")
-    .map(([country]) => country);
-
+  const yearClause = TRACKED_YEARS.join(" OR ");
   const queries = [];
   const templates = [
-    (category, year) => `"${category}" conference CFP ${year} Europe`,
-    (category, year) => `"${category}" "call for papers" conference ${year}`,
-    (category, year) => `"${category}" conference ${year} ${europeCountries[queries.length % europeCountries.length]}`,
+    (term) => `"${term}" (conference OR symposium OR congress) (CFP OR "call for papers" OR "call for submissions") (${yearClause}) Europe`,
+    (term) => `"${term}" "call for papers" (${yearClause})`,
+    (term) => `"${term}" conference (${yearClause})`,
   ];
 
-  for (const template of templates) {
-    for (const year of TRACKED_YEARS) {
-      for (const category of CATEGORIES) {
-        queries.push({ category, query: template(category, year) });
+  for (const category of CATEGORIES) {
+    const terms = [category, ...(CATEGORY_ALIASES[category] ?? [])];
+    for (const term of terms) {
+      for (const template of templates) {
+        queries.push({ category, query: template(term) });
       }
     }
   }
@@ -557,7 +593,8 @@ function categoryMatches(text, seedCategory) {
   const matches = new Set([seedCategory]);
   const lower = text.toLowerCase();
   for (const category of CATEGORIES) {
-    if (lower.includes(category.toLowerCase())) {
+    const terms = [category, ...(CATEGORY_ALIASES[category] ?? [])];
+    if (terms.some((term) => lower.includes(term.toLowerCase()))) {
       matches.add(category);
     }
   }
