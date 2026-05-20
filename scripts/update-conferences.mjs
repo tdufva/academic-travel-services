@@ -52,6 +52,9 @@ const CATEGORY_ALIASES = {
     "ageing studies",
     "aging studies",
     "age studies",
+    "aging and social change",
+    "ageing and social change",
+    "age-friendly university",
     "critical gerontology",
     "cultural gerontology",
     "gerontology",
@@ -86,6 +89,23 @@ const CATEGORY_ALIASES = {
   ],
 };
 
+const CURATED_SEARCH_SEEDS = [
+  {
+    category: "Critical age studies",
+    title: "Sixteenth Interdisciplinary Conference on Aging & Social Change",
+    url: "https://agingandsocialchange.com/2026-conference/call-for-papers",
+    snippet:
+      "Conference dates 15-16 October 2026 at Akdeniz University in Antalya, Turkey. Submission deadline: 15 September 2026. Aging and social change themes include social, cultural, economic, and policy dimensions of aging.",
+  },
+  {
+    category: "Critical age studies",
+    title: "Generations at Work: A Fairer Future for Learning, Earning and Longevity",
+    url: "https://www.dcu.ie/agefriendly/AFU-Conference-2026",
+    snippet:
+      "Conference dates 22-23 October 2026 at Dublin City University, Dublin, Ireland. Submission deadline: 21 August 2026. Age-Friendly University themes include lifelong learning, intergenerational dialogue, and future workspaces in an ageing society.",
+  },
+];
+
 const COUNTRY_CONTINENTS = new Map(
   [
     ["Austria", "Europe"],
@@ -106,6 +126,7 @@ const COUNTRY_CONTINENTS = new Map(
     ["Spain", "Europe"],
     ["Sweden", "Europe"],
     ["Switzerland", "Europe"],
+    ["Turkey", "Europe"],
     ["United Kingdom", "Europe"],
     ["Canada", "North America"],
     ["United States", "North America"],
@@ -125,6 +146,7 @@ const COUNTRY_CONTINENTS = new Map(
 
 const CITY_HINTS = [
   "Amsterdam",
+  "Antalya",
   "Athens",
   "Barcelona",
   "Berlin",
@@ -162,6 +184,7 @@ const CITY_HINTS = [
 
 const CITY_COUNTRIES = new Map([
   ["Amsterdam", "Netherlands"],
+  ["Antalya", "Turkey"],
   ["Athens", "Greece"],
   ["Barcelona", "Spain"],
   ["Berlin", "Germany"],
@@ -762,7 +785,10 @@ async function main() {
 
   const queryLimit = Number(process.env.SEARCH_QUERY_LIMIT ?? 80);
   const queries = buildQueries().slice(0, queryLimit);
-  const rawResults = [];
+  const rawResults = CURATED_SEARCH_SEEDS.map((seed) => ({
+    ...seed,
+    query: "curated official seed",
+  }));
 
   for (const { query, category } of queries) {
     try {
