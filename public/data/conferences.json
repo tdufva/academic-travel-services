@@ -1,8 +1,26 @@
 {
-  "generatedAt": "2026-05-20T12:37:26.732Z",
+  "generatedAt": "2026-05-20T12:44:15.877Z",
   "generatedBy": "serpapi-google",
   "notes": "Generated from public search results. Values that cannot be confidently extracted are stored as null or unknown. Verify details on official conference websites.",
   "items": [
+    {
+      "id": "sixteenth-interdisciplinary-conference-on-aging-social-change-agingandsocialchan",
+      "title": "Sixteenth Interdisciplinary Conference on Aging & Social Change",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-16",
+      "city": "Antalya",
+      "country": "Turkey",
+      "continent": "Europe",
+      "categories": [
+        "Critical age studies"
+      ],
+      "description": "Conference dates 15-16 October 2026 at Akdeniz University in Antalya, Turkey. Submission deadline: 15 September 2026. Aging and social change themes include social, cultural, economic, and policy dimensions of aging.",
+      "cfpDeadline": "2026-09-15",
+      "submissionStatus": "open",
+      "officialUrl": "https://agingandsocialchange.com/2026-conference/call-for-papers",
+      "sourceUrl": "https://agingandsocialchange.com/2026-conference/call-for-papers",
+      "lastChecked": "2026-05-20T12:44:15.877Z"
+    },
     {
       "id": "european-academy-of-design-home-eadresearch-org",
       "title": "European Academy of Design: Home",
@@ -20,7 +38,28 @@
       "submissionStatus": "open",
       "officialUrl": "https://eadresearch.org",
       "sourceUrl": "https://eadresearch.org",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
+    },
+    {
+      "id": "generations-at-work-a-fairer-future-for-learning-earning-and-longevity-www-dcu-i",
+      "title": "Generations at Work: A Fairer Future for Learning, Earning and Longevity",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-23",
+      "city": "Dublin",
+      "country": "Ireland",
+      "continent": "Europe",
+      "categories": [
+        "Critical age studies",
+        "Education",
+        "Social sciences",
+        "Humanities"
+      ],
+      "description": "Conference dates 22-23 October 2026 at Dublin City University, Dublin, Ireland. Submission deadline: 21 August 2026. Age-Friendly University themes include lifelong learning, intergenerational dialogue, and future workspaces in an ageing society.",
+      "cfpDeadline": "2026-08-21",
+      "submissionStatus": "open",
+      "officialUrl": "https://www.dcu.ie/agefriendly/AFU-Conference-2026",
+      "sourceUrl": "https://www.dcu.ie/agefriendly/AFU-Conference-2026",
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "2026-www-worldcss-org-call-for-papers",
@@ -41,7 +80,7 @@
       "submissionStatus": "open",
       "officialUrl": "https://www.worldcss.org/call-for-papers",
       "sourceUrl": "https://www.worldcss.org/call-for-papers",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "the-european-conference-on-education-ece-ece-iafor-org-call-for-papers",
@@ -60,7 +99,7 @@
       "submissionStatus": "open",
       "officialUrl": "https://ece.iafor.org/call-for-papers",
       "sourceUrl": "https://ece.iafor.org/call-for-papers",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "conference-at-m-lardalen-university-ai-in-writing-pedagogy-eera-ecer-de-other-or",
@@ -79,7 +118,7 @@
       "submissionStatus": "open",
       "officialUrl": "https://eera-ecer.de/other-organisations-events/ai-in-writing-pedagogy-call-for-papers",
       "sourceUrl": "https://eera-ecer.de/other-organisations-events/ai-in-writing-pedagogy-call-for-papers",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "digital-humanities-conference-2026-openscience-lib-cas-cz-en-event-digital-human",
@@ -99,7 +138,7 @@
       "submissionStatus": "open",
       "officialUrl": "https://openscience.lib.cas.cz/en/event/digital-humanities-conference-2026",
       "sourceUrl": "https://openscience.lib.cas.cz/en/event/digital-humanities-conference-2026",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "the-european-conference-on-arts-ecah-iafor-org-call-for-papers",
@@ -119,7 +158,7 @@
       "submissionStatus": "open",
       "officialUrl": "https://ecah.iafor.org/call-for-papers",
       "sourceUrl": "https://ecah.iafor.org/call-for-papers",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "vernon-lee-conference-u-liverpool-1-3-britishwomenwriters-org-2025-11-03-cfp-for",
@@ -138,7 +177,7 @@
       "submissionStatus": "open",
       "officialUrl": "https://britishwomenwriters.org/2025/11/03/cfp-for-vernon-lee-conference-u-liverpool-1-3-september-2026",
       "sourceUrl": "https://britishwomenwriters.org/2025/11/03/cfp-for-vernon-lee-conference-u-liverpool-1-3-september-2026",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "calls-events-iaspm-norden-wordpress-com-iaspmnorden-wordpress-com-callevents",
@@ -157,7 +196,7 @@
       "submissionStatus": "open",
       "officialUrl": "https://iaspmnorden.wordpress.com/callevents",
       "sourceUrl": "https://iaspmnorden.wordpress.com/callevents",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "call-for-paper-education-conference-2026-nottingham-www-eduglobalconf-org-call-f",
@@ -177,26 +216,7 @@
       "submissionStatus": "open",
       "officialUrl": "https://www.eduglobalconf.org/call-for-papers",
       "sourceUrl": "https://www.eduglobalconf.org/call-for-papers",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
-    },
-    {
-      "id": "current-open-art-calls-for-entry-artcall-org-calls",
-      "title": "Current Open Art Calls For Entry",
-      "startDate": "2026-05-30",
-      "endDate": null,
-      "city": null,
-      "country": null,
-      "continent": null,
-      "categories": [
-        "Visual art",
-        "Education"
-      ],
-      "description": "PJAS Editorial Open Call for Submissions. Call Dates: Apr 11, 2026, 11:59:59 PM through Aug 21, 2026, 11:59:59 PM. Call Description:.",
-      "cfpDeadline": "2026-05-30",
-      "submissionStatus": "open",
-      "officialUrl": "https://artcall.org/calls",
-      "sourceUrl": "https://artcall.org/calls",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "events-ecrea-eu-events-eventviewmode-1-eventlistviewmode-1",
@@ -216,7 +236,7 @@
       "submissionStatus": "open",
       "officialUrl": "https://ecrea.eu/events?EventViewMode=1&EventListViewMode=1",
       "sourceUrl": "https://ecrea.eu/events?EventViewMode=1&EventListViewMode=1",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "my-drupal-www-sociology-al-en-conferences-call-papers",
@@ -235,7 +255,7 @@
       "submissionStatus": "open",
       "officialUrl": "https://www.sociology.al/en/conferences/call-papers",
       "sourceUrl": "https://www.sociology.al/en/conferences/call-papers",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "eden-2026-annual-conference-eden-europe-eu-event-eden-2026-annual-conference",
@@ -253,7 +273,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://eden-europe.eu/event/eden-2026-annual-conference",
       "sourceUrl": "https://eden-europe.eu/event/eden-2026-annual-conference",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "the-art-of-the-brain-unlocking-the-power-www-fens-org-news-activities-fens-and-s",
@@ -273,7 +293,7 @@
       "submissionStatus": "open",
       "officialUrl": "https://www.fens.org/news-activities/fens-and-societies-calendar/outreach-event/cfp-the-art-of-the-brain-unlocking-the-power-of-neuroaesthetics-in-the-age-of-artificial-intelligence",
       "sourceUrl": "https://www.fens.org/news-activities/fens-and-societies-calendar/outreach-event/cfp-the-art-of-the-brain-unlocking-the-power-of-neuroaesthetics-in-the-age-of-artificial-intelligence",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "institutions-and-economic-performance-cepr-org-node-qt-quicktabs-cepr-policy-res",
@@ -292,7 +312,7 @@
       "submissionStatus": "open",
       "officialUrl": "https://cepr.org/node?qt-quicktabs_cepr_policy_research=0&page=1",
       "sourceUrl": "https://cepr.org/node?qt-quicktabs_cepr_policy_research=0&page=1",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "reimagining-place-and-place-based-art-education-call-for-papers-sas-upenn-edu-cf",
@@ -312,7 +332,7 @@
       "submissionStatus": "open",
       "officialUrl": "https://call-for-papers.sas.upenn.edu/cfp/2026/03/03/call-for-papers-%E2%80%98reimagining-place-and-place-based-art-education%E2%80%99",
       "sourceUrl": "https://call-for-papers.sas.upenn.edu/cfp/2026/03/03/call-for-papers-%E2%80%98reimagining-place-and-place-based-art-education%E2%80%99",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "upcoming-worldwide-language-conferences-mauricioarango-wordpress-com-upcoming-ev",
@@ -332,7 +352,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://mauricioarango.wordpress.com/upcoming-events",
       "sourceUrl": "https://mauricioarango.wordpress.com/upcoming-events",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "design-thinking-research-symposium-15-universidade-de-dtrs15-belasartes-ulisboa-",
@@ -353,7 +373,7 @@
       "submissionStatus": "open",
       "officialUrl": "https://dtrs15.belasartes.ulisboa.pt",
       "sourceUrl": "https://dtrs15.belasartes.ulisboa.pt",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "a-focus-on-pedagogy-universidad-polit-cnica-de-madrid-amps-research-com-conferen",
@@ -375,7 +395,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://amps-research.com/conference/pedagogy-madrid",
       "sourceUrl": "https://amps-research.com/conference/pedagogy-madrid",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "drs2026-edinburgh-www-designresearchsociety-org-articles-drs2026edinburgh",
@@ -393,7 +413,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://www.designresearchsociety.org/articles/drs2026edinburgh",
       "sourceUrl": "https://www.designresearchsociety.org/articles/drs2026edinburgh",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "the-creative-psyche-and-arts-based-research-www-conferencesked-com-conference-de",
@@ -412,7 +432,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://www.conferencesked.com/conference_details/12480/the-creative-psyche-and-arts-based-research-a-transdisciplinary-conference",
       "sourceUrl": "https://www.conferencesked.com/conference_details/12480/the-creative-psyche-and-arts-based-research-a-transdisciplinary-conference",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "355-the-latest-news-from-the-world-of-design-conferences-neonmoire-beehiiv-com-p",
@@ -430,7 +450,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://neonmoire.beehiiv.com/p/355",
       "sourceUrl": "https://neonmoire.beehiiv.com/p/355",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "eadh-conference-2026-linking-europe-eadh-org-news-2025-12-04-cfp-eadh-conference",
@@ -450,7 +470,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://eadh.org/news/2025/12/04/cfp-eadh-conference-2026-linking-europe-digital-humanities-without-borders",
       "sourceUrl": "https://eadh.org/news/2025/12/04/cfp-eadh-conference-2026-linking-europe-digital-humanities-without-borders",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "the-future-of-education-conference-pixel-online-net-foe-index-php",
@@ -468,7 +488,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://conference.pixel-online.net/FOE/index.php",
       "sourceUrl": "https://conference.pixel-online.net/FOE/index.php",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "2026-conference-new-directions-in-the-humanities-thehumanities-com-2026-conferen",
@@ -489,7 +509,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://thehumanities.com/2026-conference",
       "sourceUrl": "https://thehumanities.com/2026-conference",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "bordeaux-2026-sase-annual-conferences-sase-org-events-2026-bordeaux",
@@ -509,7 +529,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://sase.org/events/2026-bordeaux",
       "sourceUrl": "https://sase.org/events/2026-bordeaux",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "conference-invitation-ai-and-the-future-of-education-vetnet-vetnetsite-org-2025-",
@@ -528,7 +548,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://vetnetsite.org/2025/07/19/conference-invitation-ai-and-the-future-of-education",
       "sourceUrl": "https://vetnetsite.org/2025/07/19/conference-invitation-ai-and-the-future-of-education",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "conferences-malm-university-comics-hub-comics-uni-mau-se-cfp",
@@ -547,7 +567,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://comics.uni.mau.se/cfp",
       "sourceUrl": "https://comics.uni.mau.se/cfp",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "upcoming-events-in-epistemology-philevents-org-search-topic-576",
@@ -568,7 +588,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://philevents.org/search/topic/576",
       "sourceUrl": "https://philevents.org/search/topic/576",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "2026-humanities-and-social-sciences-icmhs-www-icmhs-org-call-for-papers",
@@ -587,7 +607,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://www.icmhs.org/call-for-papers",
       "sourceUrl": "https://www.icmhs.org/call-for-papers",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "ecgbl-call-for-papers-acpi-www-academic-conferences-org-conferences-ecgbl-ecgbl-",
@@ -606,7 +626,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://www.academic-conferences.org/conferences/ecgbl/ecgbl-call-for-papers",
       "sourceUrl": "https://www.academic-conferences.org/conferences/ecgbl/ecgbl-call-for-papers",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "the-future-of-higher-education-bologna-www-eua-eu-news-member-and-partner-news-c",
@@ -625,7 +645,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://www.eua.eu/news/member-and-partner-news/call-for-papers-the-future-of-higher-education-bologna-process-researchers-conference.html",
       "sourceUrl": "https://www.eua.eu/news/member-and-partner-news/call-for-papers-the-future-of-higher-education-bologna-process-researchers-conference.html",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "eadi-news-www-eadi-org-news-eadi-news",
@@ -644,7 +664,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://www.eadi.org/news/eadi-news",
       "sourceUrl": "https://www.eadi.org/news/eadi-news",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "ehri-network-www-ehri-project-eu-ehri-network-call-for-papers-international-conf",
@@ -663,7 +683,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://www.ehri-project.eu/ehri-network-call-for-papers-international-conference-holocaust-films-and-the-struggle-for-interpretive-authority-europe-in-the-cold-war",
       "sourceUrl": "https://www.ehri-project.eu/ehri-network-call-for-papers-international-conference-holocaust-films-and-the-struggle-for-interpretive-authority-europe-in-the-cold-war",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "jagiello-skie-centrum-humanistyki-cyfrowej-eadh2026-confer-uj-edu-pl-cfp",
@@ -682,7 +702,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://eadh2026.confer.uj.edu.pl/cfp",
       "sourceUrl": "https://eadh2026.confer.uj.edu.pl/cfp",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "open-call-prix-ars-electronica-ars-electronica-art-prix-en-opencall",
@@ -700,7 +720,7 @@
       "submissionStatus": "unknown",
       "officialUrl": "https://ars.electronica.art/prix/en/opencall",
       "sourceUrl": "https://ars.electronica.art/prix/en/opencall",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "cfp-call-for-papers-sas-upenn-edu-taxonomy-term-15-all-page-4",
@@ -723,7 +743,26 @@
       "submissionStatus": "open",
       "officialUrl": "https://call-for-papers.sas.upenn.edu/taxonomy/term/15/all?page=4",
       "sourceUrl": "https://call-for-papers.sas.upenn.edu/taxonomy/term/15/all?page=4",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
+    },
+    {
+      "id": "current-open-art-calls-for-entry-artcall-org-calls",
+      "title": "Current Open Art Calls For Entry",
+      "startDate": null,
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Visual art",
+        "Education"
+      ],
+      "description": "PJAS Editorial Open Call for Submissions. Call Dates: Apr 11, 2026, 11:59:59 PM through Aug 21, 2026, 11:59:59 PM. Call Description:.",
+      "cfpDeadline": "2026-05-30",
+      "submissionStatus": "open",
+      "officialUrl": "https://artcall.org/calls",
+      "sourceUrl": "https://artcall.org/calls",
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "icalt-2026-technical-communities-ieee-computer-society-tc-computer-org-tclt-ical",
@@ -742,7 +781,7 @@
       "submissionStatus": "open",
       "officialUrl": "https://tc.computer.org/tclt/icalt-2026",
       "sourceUrl": "https://tc.computer.org/tclt/icalt-2026",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     },
     {
       "id": "internationalizing-teacher-training-programs-in-arts-journal-fi-rae-announcement",
@@ -764,7 +803,7 @@
       "submissionStatus": "open",
       "officialUrl": "https://journal.fi/rae/announcement/view/1023",
       "sourceUrl": "https://journal.fi/rae/announcement/view/1023",
-      "lastChecked": "2026-05-20T12:37:26.732Z"
+      "lastChecked": "2026-05-20T12:44:15.877Z"
     }
   ]
 }
