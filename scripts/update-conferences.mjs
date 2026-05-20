@@ -25,6 +25,7 @@ const CATEGORIES = [
   "Design research",
   "Cultural studies",
   "Humanities",
+  "Literature",
   "Pedagogy",
   "Technology and education",
   "Arts-based research",
@@ -86,6 +87,20 @@ const CATEGORY_ALIASES = {
     "new media art",
     "bildkonst",
     "konstpedagogik",
+  ],
+  Literature: [
+    "literary studies",
+    "comparative literature",
+    "world literature",
+    "literary theory",
+    "literature education",
+    "children's literature",
+    "poetry studies",
+    "book history",
+    "narrative studies",
+    "narratology",
+    "creative writing",
+    "translation studies",
   ],
 };
 

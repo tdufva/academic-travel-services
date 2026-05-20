@@ -15,6 +15,7 @@ export const CATEGORIES = [
   "Design research",
   "Cultural studies",
   "Humanities",
+  "Literature",
   "Pedagogy",
   "Technology and education",
   "Arts-based research",

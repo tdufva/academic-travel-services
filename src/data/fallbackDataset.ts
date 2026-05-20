@@ -65,7 +65,7 @@ export const fallbackDataset: ConferenceDataset = {
       city: "Prague",
       country: "Czechia",
       continent: "Europe",
-      categories: ["Digital humanities", "Humanities", "Technology and education"],
+      categories: ["Digital humanities", "Humanities", "Literature", "Technology and education"],
       description:
         "Starter record for the method page and frontend filtering. Treat it as a placeholder until the refresh workflow writes verified search results.",
       cfpDeadline: "2027-01-20",
