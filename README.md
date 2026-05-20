@@ -77,6 +77,8 @@ type Conference = {
 
 Use ISO dates (`YYYY-MM-DD`) where known. Prefer official conference websites for `officialUrl`; use `sourceUrl` for the page or search result that supports the listing.
 
+Manual records that should survive automated refreshes should use an `id` beginning with `manual-`.
+
 ## Disclaimer
 
 Conference details change. CFP deadlines move, hybrid formats appear, and locations sometimes shift after the first announcement. Always verify dates, venues, fees, submission status, and travel requirements on official conference websites before booking or submitting.

@@ -45,9 +45,15 @@ describe("filterConferences", () => {
   });
 
   it("excludes unknown dates by default", () => {
-    const results = filterConferences([{ ...baseConference, id: "unknown", startDate: null }], filters);
+    const results = filterConferences([{ ...baseConference, id: "unknown", startDate: null, cfpDeadline: null }], filters);
 
     expect(results).toHaveLength(0);
+  });
+
+  it("keeps CFP calls with a known future deadline even when conference dates are unknown", () => {
+    const results = filterConferences([{ ...baseConference, id: "cfp", startDate: null }], filters);
+
+    expect(results).toHaveLength(1);
   });
 
   it("sorts soonest conferences first", () => {

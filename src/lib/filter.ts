@@ -81,11 +81,13 @@ export function filterConferences(conferences: Conference[], filters: Filters): 
         return false;
       }
 
-      if (!conference.startDate && !filters.includeUnknownDates) {
+      const dateForFiltering = conference.startDate ?? conference.cfpDeadline;
+
+      if (!dateForFiltering && !filters.includeUnknownDates) {
         return false;
       }
 
-      if (conference.startDate && !isBetween(conference.startDate, filters.startDate, filters.endDate)) {
+      if (dateForFiltering && !isBetween(dateForFiltering, filters.startDate, filters.endDate)) {
         return false;
       }
 

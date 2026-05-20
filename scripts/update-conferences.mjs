@@ -5,6 +5,8 @@ const DATA_PATH = new URL("../public/data/conferences.json", import.meta.url);
 const NOW = new Date();
 const TWO_YEARS_FROM_NOW = new Date(NOW);
 TWO_YEARS_FROM_NOW.setFullYear(TWO_YEARS_FROM_NOW.getFullYear() + 2);
+const TRACKED_YEARS = Array.from(new Set([NOW.getFullYear(), NOW.getFullYear() + 1, NOW.getFullYear() + 2]));
+const YEAR_PATTERN = TRACKED_YEARS.join("|");
 
 const CATEGORIES = [
   "Art education",
@@ -87,6 +89,7 @@ const CITY_HINTS = [
   "Rome",
   "Stockholm",
   "Tallinn",
+  "Tampere",
   "Vienna",
   "Zurich",
   "Toronto",
@@ -101,18 +104,90 @@ const CITY_HINTS = [
   "Cape Town",
 ];
 
+const CITY_COUNTRIES = new Map([
+  ["Amsterdam", "Netherlands"],
+  ["Athens", "Greece"],
+  ["Barcelona", "Spain"],
+  ["Berlin", "Germany"],
+  ["Bilbao", "Spain"],
+  ["Brussels", "Belgium"],
+  ["Copenhagen", "Denmark"],
+  ["Dublin", "Ireland"],
+  ["Helsinki", "Finland"],
+  ["Lisbon", "Portugal"],
+  ["London", "United Kingdom"],
+  ["Madrid", "Spain"],
+  ["Milan", "Italy"],
+  ["Oslo", "Norway"],
+  ["Paris", "France"],
+  ["Porto", "Portugal"],
+  ["Prague", "Czechia"],
+  ["Reykjavik", "Iceland"],
+  ["Rome", "Italy"],
+  ["Stockholm", "Sweden"],
+  ["Tallinn", "Estonia"],
+  ["Tampere", "Finland"],
+  ["Vienna", "Austria"],
+  ["Zurich", "Switzerland"],
+  ["Toronto", "Canada"],
+  ["Montreal", "Canada"],
+  ["New York", "United States"],
+  ["Chicago", "United States"],
+  ["Kyoto", "Japan"],
+  ["Tokyo", "Japan"],
+  ["Singapore", "Singapore"],
+  ["Melbourne", "Australia"],
+  ["Sydney", "Australia"],
+  ["Cape Town", "South Africa"],
+]);
+
 const LOW_QUALITY_DOMAINS = [
   "allconferencealert",
   "conferencealerts",
   "conferenceindex",
   "conferencelists",
+  "conferencesites.eu",
+  "facebook.com",
   "freeconferencealerts",
+  "instagram.com",
   "internationalconferencealerts",
+  "linkedin.com",
   "researchfora",
   "sciencefora",
   "waset.org",
+  "wikicfp.com",
   "worldacademy",
 ];
+
+const MONTHS = new Map([
+  ["jan", 1],
+  ["january", 1],
+  ["feb", 2],
+  ["february", 2],
+  ["mar", 3],
+  ["march", 3],
+  ["apr", 4],
+  ["april", 4],
+  ["may", 5],
+  ["jun", 6],
+  ["june", 6],
+  ["jul", 7],
+  ["july", 7],
+  ["aug", 8],
+  ["august", 8],
+  ["sep", 9],
+  ["sept", 9],
+  ["september", 9],
+  ["oct", 10],
+  ["october", 10],
+  ["nov", 11],
+  ["november", 11],
+  ["dec", 12],
+  ["december", 12],
+]);
+
+const MONTH_PATTERN =
+  "Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t|tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?";
 
 function getProvider() {
   if (process.env.BRAVE_SEARCH_API_KEY) {
@@ -159,7 +234,7 @@ function getProvider() {
         return (payload.organic_results ?? []).map((result) => ({
           title: result.title,
           url: result.link,
-          snippet: result.snippet ?? "",
+          snippet: [result.date, result.snippet].filter(Boolean).join(". "),
         }));
       },
     };
@@ -195,17 +270,22 @@ function getProvider() {
 }
 
 function buildQueries() {
-  const years = Array.from(new Set([NOW.getFullYear(), NOW.getFullYear() + 1, NOW.getFullYear() + 2]));
   const europeCountries = Array.from(COUNTRY_CONTINENTS.entries())
     .filter(([, continent]) => continent === "Europe")
     .map(([country]) => country);
 
   const queries = [];
-  for (const category of CATEGORIES) {
-    for (const year of years) {
-      queries.push({ category, query: `"${category}" conference CFP ${year} Europe` });
-      queries.push({ category, query: `"${category}" "call for papers" conference ${year}` });
-      queries.push({ category, query: `"${category}" conference ${year} ${europeCountries[queries.length % europeCountries.length]}` });
+  const templates = [
+    (category, year) => `"${category}" conference CFP ${year} Europe`,
+    (category, year) => `"${category}" "call for papers" conference ${year}`,
+    (category, year) => `"${category}" conference ${year} ${europeCountries[queries.length % europeCountries.length]}`,
+  ];
+
+  for (const template of templates) {
+    for (const year of TRACKED_YEARS) {
+      for (const category of CATEGORIES) {
+        queries.push({ category, query: template(category, year) });
+      }
     }
   }
 
@@ -252,6 +332,35 @@ function isLowQualityResult(result) {
   );
 }
 
+function isLowQualityTitle(title, url) {
+  const normalizedTitle = cleanText(title).toLowerCase();
+  const domain = domainFor(url);
+  const pathname = (() => {
+    try {
+      return new URL(url).pathname.toLowerCase();
+    } catch {
+      return "";
+    }
+  })();
+
+  if (domain === "easychair.org" && (pathname === "/cfp" || pathname === "/cfp/area")) {
+    return true;
+  }
+
+  if (domain === "call-for-papers.sas.upenn.edu" && pathname.startsWith("/category/")) {
+    return true;
+  }
+
+  if (["cfplist.com", "infosec-conferences.com"].some((blocked) => domain.includes(blocked))) {
+    return true;
+  }
+
+  return /\b(special issue|journal|database|archive for calls|archives par|great academic opportunities|cybersecurity conferences|upcoming conferences|smart cfp|exhibitors|assistant professor)\b/.test(
+    normalizedTitle,
+  ) || /^(online conference|events\s+-|activities|tuesday,|\|\s*call for papers|s in social sciences|list\s+[-–])/.test(normalizedTitle) ||
+    /\s+-\s+home$/.test(normalizedTitle);
+}
+
 function cleanText(value) {
   return String(value ?? "")
     .replace(/<script[\s\S]*?<\/script>/gi, " ")
@@ -259,12 +368,14 @@ function cleanText(value) {
     .replace(/<[^>]+>/g, " ")
     .replace(/&nbsp;/g, " ")
     .replace(/&amp;/g, "&")
-    .replace(/&#8211;|&#8212;/g, "-")
+    .replace(/&quot;/g, "\"")
+    .replace(/&#39;/g, "'")
+    .replace(/&#8211;|&#8212;|&ndash;|&mdash;/g, "-")
     .replace(/\s+/g, " ")
     .trim();
 }
 
-async function fetchPageText(url) {
+async function fetchPageContent(url) {
   try {
     const response = await fetch(url, {
       signal: AbortSignal.timeout(8000),
@@ -275,11 +386,12 @@ async function fetchPageText(url) {
     });
     const contentType = response.headers.get("content-type") ?? "";
     if (!response.ok || !/(html|text|xml)/i.test(contentType)) {
-      return "";
+      return { html: "", text: "" };
     }
-    return cleanText((await response.text()).slice(0, 300_000));
+    const html = (await response.text()).slice(0, 300_000);
+    return { html, text: cleanText(html) };
   } catch {
-    return "";
+    return { html: "", text: "" };
   }
 }
 
@@ -288,7 +400,7 @@ function dateOnly(value) {
     return null;
   }
 
-  const iso = String(value).match(/\b(20[2-3]\d)-([01]\d)-([0-3]\d)\b/);
+  const iso = String(value).match(new RegExp(`\\b(${YEAR_PATTERN})-([01]\\d)-([0-3]\\d)\\b`));
   if (iso) {
     return iso[0];
   }
@@ -301,50 +413,80 @@ function dateOnly(value) {
 }
 
 function monthNumber(month) {
-  return (
-    [
-      "january",
-      "february",
-      "march",
-      "april",
-      "may",
-      "june",
-      "july",
-      "august",
-      "september",
-      "october",
-      "november",
-      "december",
-    ].indexOf(month.toLowerCase()) + 1
-  );
+  return MONTHS.get(month.toLowerCase().replace(/\.$/, "")) ?? 0;
 }
 
 function padded(value) {
   return String(value).padStart(2, "0");
 }
 
-function findDateRange(text) {
-  const iso = text.match(/\b(2026|2027|2028)-([01]\d)-([0-3]\d)\b/);
-  if (iso) {
-    return { startDate: iso[0], endDate: null };
+function normalizeYear(value) {
+  const numeric = Number(value);
+  const year = numeric < 100 ? 2000 + numeric : numeric;
+  return TRACKED_YEARS.includes(year) ? year : null;
+}
+
+function makeDate(year, month, day) {
+  if (!year || !month || !day || day < 1 || day > 31) {
+    return null;
   }
 
-  const monthPattern =
-    /\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+([0-3]?\d)(?:\s*(?:-|to|through|until|–)\s*(?:(January|February|March|April|May|June|July|August|September|October|November|December)\s+)?([0-3]?\d))?,?\s+(2026|2027|2028)\b/i;
-  const match = text.match(monthPattern);
-  if (!match) {
+  return `${year}-${padded(month)}-${padded(day)}`;
+}
+
+function withDateBounds(range) {
+  if (!range.startDate) {
+    return range;
+  }
+
+  const date = new Date(`${range.startDate}T12:00:00Z`);
+  if (date < NOW || date > TWO_YEARS_FROM_NOW) {
     return { startDate: null, endDate: null };
   }
 
-  const startMonth = monthNumber(match[1]);
-  const startDay = Number(match[2]);
-  const endMonth = monthNumber(match[3] ?? match[1]);
-  const endDay = match[4] ? Number(match[4]) : null;
-  const year = Number(match[5]);
-  const startDate = `${year}-${padded(startMonth)}-${padded(startDay)}`;
-  const endDate = endDay ? `${year}-${padded(endMonth)}-${padded(endDay)}` : null;
+  return range;
+}
 
-  return { startDate, endDate };
+function findDateRange(text) {
+  const iso = text.match(new RegExp(`\\b(${YEAR_PATTERN})-([01]\\d)-([0-3]\\d)\\b`));
+  if (iso) {
+    return withDateBounds({ startDate: iso[0], endDate: null });
+  }
+
+  const monthFirstPattern = new RegExp(
+    `\\b(${MONTH_PATTERN})\\.?\\s+([0-3]?\\d)(?:\\s*(?:-|to|through|until|–|—)\\s*(?:(${MONTH_PATTERN})\\.?\\s+)?([0-3]?\\d))?,?\\s+(${YEAR_PATTERN}|\\d{2})\\b`,
+    "i",
+  );
+  const monthFirst = text.match(monthFirstPattern);
+  if (monthFirst) {
+    const year = normalizeYear(monthFirst[5]);
+    const startMonth = monthNumber(monthFirst[1]);
+    const startDay = Number(monthFirst[2]);
+    const endMonth = monthNumber(monthFirst[3] ?? monthFirst[1]);
+    const endDay = monthFirst[4] ? Number(monthFirst[4]) : null;
+    return withDateBounds({
+      startDate: makeDate(year, startMonth, startDay),
+      endDate: endDay ? makeDate(year, endMonth, endDay) : null,
+    });
+  }
+
+  const dayFirstPattern = new RegExp(
+    `\\b([0-3]?\\d)(?:\\s*(?:-|to|through|until|–|—)\\s*([0-3]?\\d))?\\s+(${MONTH_PATTERN})\\.?\\s+(${YEAR_PATTERN}|\\d{2})\\b`,
+    "i",
+  );
+  const dayFirst = text.match(dayFirstPattern);
+  if (dayFirst) {
+    const year = normalizeYear(dayFirst[4]);
+    const month = monthNumber(dayFirst[3]);
+    const startDay = Number(dayFirst[1]);
+    const endDay = dayFirst[2] ? Number(dayFirst[2]) : null;
+    return withDateBounds({
+      startDate: makeDate(year, month, startDay),
+      endDate: endDay ? makeDate(year, month, endDay) : null,
+    });
+  }
+
+  return { startDate: null, endDate: null };
 }
 
 function findCfpDeadline(text) {
@@ -378,6 +520,25 @@ function detectCity(text) {
   return null;
 }
 
+function findSchemaDates(html) {
+  const startDate = dateOnly(html.match(/"startDate"\s*:\s*"([^"]+)"/i)?.[1]);
+  const endDate = dateOnly(html.match(/"endDate"\s*:\s*"([^"]+)"/i)?.[1]);
+
+  return withDateBounds({ startDate, endDate });
+}
+
+function cleanTitle(title) {
+  return cleanText(title)
+    .replace(/^cfp\s*:?\s*/i, "")
+    .replace(/^call for papers\s*:?\s*/i, "")
+    .replace(/^[-–—|:\s]+/, "")
+    .replace(/^for\s+/i, "")
+    .replace(/\s+[-|]\s+Call for Papers.*$/i, "")
+    .replace(/\s+[-|]\s+CFP.*$/i, "")
+    .replace(/\s*\.\.\.$/, "")
+    .slice(0, 160);
+}
+
 function detectSubmissionStatus(cfpDeadline, text) {
   const lower = text.toLowerCase();
   if (cfpDeadline) {
@@ -403,6 +564,23 @@ function categoryMatches(text, seedCategory) {
   return [...matches];
 }
 
+function qualityScore(item) {
+  let score = 0;
+  if (item.startDate) score += 6;
+  if (item.cfpDeadline) score += 3;
+  if (item.country) score += 2;
+  if (item.city) score += 1;
+  if (item.submissionStatus === "open") score += 2;
+  if (item.submissionStatus === "upcoming") score += 1;
+  if (/conference|congress|symposium|colloquium/i.test(item.title)) score += 2;
+
+  const domain = domainFor(item.officialUrl);
+  if (LOW_QUALITY_DOMAINS.some((blocked) => domain.includes(blocked))) score -= 8;
+  if (/facebook|instagram|linkedin|x\.com|twitter/.test(domain)) score -= 5;
+
+  return score;
+}
+
 function slugify(value) {
   return value
     .toLowerCase()
@@ -412,28 +590,29 @@ function slugify(value) {
     .slice(0, 80);
 }
 
-function normalizeResult(result, pageText) {
-  const combinedText = cleanText(`${result.title}. ${result.snippet}. ${pageText}`);
-  const title = cleanText(result.title)
-    .replace(/\s+[-|]\s+Call for Papers.*$/i, "")
-    .replace(/\s+[-|]\s+CFP.*$/i, "")
-    .slice(0, 160);
+function normalizeResult(result, pageContent) {
+  const resultText = cleanText(`${result.title}. ${result.snippet}`);
+  const pageLead = pageContent.text.slice(0, 8000);
+  const combinedText = cleanText(`${resultText}. ${pageLead}`);
+  const title = cleanTitle(result.title);
 
-  if (!title || !/\b(conference|congress|symposium|colloquium|meeting|cfp|call for papers)\b/i.test(combinedText)) {
+  if (!title || !/\b(conference|congress|symposium|colloquium|meeting|cfp|call for papers|call for submissions)\b/i.test(resultText)) {
     return null;
   }
 
-  const { startDate, endDate } = findDateRange(combinedText);
-  if (startDate) {
-    const date = new Date(`${startDate}T12:00:00Z`);
-    if (date < NOW || date > TWO_YEARS_FROM_NOW) {
-      return null;
-    }
+  if (isLowQualityTitle(title, result.url)) {
+    return null;
   }
 
-  const cfpDeadline = findCfpDeadline(combinedText);
-  const country = detectCountry(combinedText);
-  const city = detectCity(combinedText);
+  const schemaDates = findSchemaDates(pageContent.html);
+  const resultDates = findDateRange(resultText);
+  const leadDates = findDateRange(pageLead);
+  const startDate = schemaDates.startDate ?? resultDates.startDate ?? leadDates.startDate;
+  const endDate = schemaDates.endDate ?? resultDates.endDate ?? leadDates.endDate;
+
+  const cfpDeadline = findCfpDeadline(resultText) ?? findCfpDeadline(pageLead);
+  const city = detectCity(resultText);
+  const country = (city ? CITY_COUNTRIES.get(city) ?? null : null) ?? detectCountry(resultText);
   const categories = categoryMatches(combinedText, result.category);
   const description = cleanText(result.snippet || combinedText).slice(0, 260);
   const officialUrl = canonicalUrl(result.url);
@@ -510,17 +689,19 @@ async function main() {
 
   const normalized = [];
   for (const result of uniqueResults) {
-    const pageText = await fetchPageText(result.url);
-    const item = normalizeResult(result, pageText);
+    const pageContent = await fetchPageContent(result.url);
+    const item = normalizeResult(result, pageContent);
     if (item) {
       normalized.push(item);
     }
   }
 
-  const manualItems = (existing.items ?? []).filter(
-    (item) => !String(item.id).startsWith("demo-") && !String(item.officialUrl).includes("example.org"),
-  );
-  const items = normalized.length > 0 ? dedupeItems([...manualItems, ...normalized]) : existing.items ?? [];
+  const manualItems = (existing.items ?? []).filter((item) => String(item.id).startsWith("manual-"));
+  const sortedNormalized = normalized
+    .filter((item) => item.startDate || item.cfpDeadline || item.submissionStatus === "upcoming")
+    .filter((item) => qualityScore(item) >= 0)
+    .sort((a, b) => qualityScore(b) - qualityScore(a));
+  const items = sortedNormalized.length > 0 ? dedupeItems([...manualItems, ...sortedNormalized]) : existing.items ?? [];
 
   const output = {
     generatedAt: NOW.toISOString(),
