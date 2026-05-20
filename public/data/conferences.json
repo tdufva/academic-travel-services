@@ -1,104 +1,88 @@
 {
-  "generatedAt": "2026-05-20T11:48:19.537Z",
+  "generatedAt": "2026-05-20T12:24:56.190Z",
   "generatedBy": "serpapi-google",
   "notes": "Generated from public search results. Values that cannot be confidently extracted are stored as null or unknown. Verify details on official conference websites.",
   "items": [
     {
-      "id": "london-international-conference-on-social-science-manuscriptlink-com-cfp-detail-",
-      "title": "London – International Conference on Social Science &",
-      "startDate": "2026-11-22",
-      "endDate": "2026-11-23",
-      "city": "London",
-      "country": "United Kingdom",
-      "continent": "Europe",
+      "id": "2026-conference-on-teaching-and-education-www-worldcte-org-call-for-papers",
+      "title": "2026 Conference on Teaching and Education",
+      "startDate": "2026-07-23",
+      "endDate": "2026-07-25",
+      "city": null,
+      "country": null,
+      "continent": null,
       "categories": [
-        "Social sciences",
-        "Humanities"
-      ],
-      "description": "London – International Conference on Social Science & Humanities, 22-23 November 2026. ... Conference Themes: Social Sciences & Humanities. (Vernacular Session, ...",
-      "cfpDeadline": "2026-11-20",
-      "submissionStatus": "open",
-      "officialUrl": "https://manuscriptlink.com/cfp/detail/event/WAVRTJQH69100585?v=subject",
-      "sourceUrl": "https://manuscriptlink.com/cfp/detail/event/WAVRTJQH69100585?v=subject",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "design-re-thinking-dtrs15-belasartes-ulisboa-pt",
-      "title": "Design [RE]thinking",
-      "startDate": "2026-06-19",
-      "endDate": null,
-      "city": "Copenhagen",
-      "country": "Denmark",
-      "continent": "Europe",
-      "categories": [
-        "Design research",
+        "Art education",
         "Education",
+        "Cultural studies",
         "Pedagogy"
       ],
-      "description": "Conference Dates: 17, 18 and 19 June 2026. Final Submission Deadline for ... Professor of Design Research at Copenhagen Business School. Studies ...",
-      "cfpDeadline": "2026-07-15",
+      "description": "... call for papers 2026 ... The conference is seeking submissions related to the following conference topics: Adult Education, Art Education ...",
+      "cfpDeadline": "2026-07-23",
       "submissionStatus": "open",
-      "officialUrl": "https://dtrs15.belasartes.ulisboa.pt",
-      "sourceUrl": "https://dtrs15.belasartes.ulisboa.pt",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
+      "officialUrl": "https://www.worldcte.org/call-for-papers",
+      "sourceUrl": "https://www.worldcte.org/call-for-papers",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
     },
     {
-      "id": "for-vernon-lee-conference-u-liverpool-1-3-britishwomenwriters-org-2025-11-03-cfp",
-      "title": "Vernon Lee Conference (U Liverpool, 1-3",
-      "startDate": "2026-09-01",
-      "endDate": "2026-09-03",
-      "city": null,
-      "country": null,
-      "continent": null,
-      "categories": [
-        "Media education",
-        "Education"
-      ],
-      "description": "Nov 3, 2025. CFP for Vernon Lee Conference (U Liverpool, 1-3 September 2026) ... media, education, religion—is currently gripping Western Europe and the US.",
-      "cfpDeadline": "2026-09-01",
-      "submissionStatus": "open",
-      "officialUrl": "https://britishwomenwriters.org/2025/11/03/cfp-for-vernon-lee-conference-u-liverpool-1-3-september-2026",
-      "sourceUrl": "https://britishwomenwriters.org/2025/11/03/cfp-for-vernon-lee-conference-u-liverpool-1-3-september-2026",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "conference-theme-engagement-adho-org-2025-09-30-cfp-dh2026",
-      "title": "Conference Theme: “Engagement”",
-      "startDate": "2026-07-27",
-      "endDate": "2026-07-31",
-      "city": null,
-      "country": null,
-      "continent": null,
-      "categories": [
-        "Digital humanities",
-        "Humanities",
-        "Pedagogy"
-      ],
-      "description": "Sep 30, 2025. The Alliance of Digital Humanities Organizations (ADHO) invites submissions for its annual conference, DH2026, to be held in Daejeon, South ...",
-      "cfpDeadline": "2026-07-27",
-      "submissionStatus": "open",
-      "officialUrl": "https://adho.org/2025/09/30/cfp-dh2026",
-      "sourceUrl": "https://adho.org/2025/09/30/cfp-dh2026",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "international-conference-on-artificial-intelligence-in-society-euagenda-eu-event",
-      "title": "International Conference on Artificial Intelligence in Society",
-      "startDate": "2026-07-25",
+      "id": "2026-maea-conference-massarted-com-conference",
+      "title": "2026 MAEA Conference",
+      "startDate": "2026-10-17",
       "endDate": null,
       "city": null,
       "country": null,
       "continent": null,
       "categories": [
-        "Technology and education",
-        "Education"
+        "Art education",
+        "Education",
+        "Visual art",
+        "Pedagogy"
       ],
-      "description": "Jul 25, 2026. - Notification to Authors (Last CFP): 5 June 2026 - ... 14th International Conference on Sustainability, Technology and Education 2026.",
-      "cfpDeadline": "2026-06-05",
+      "description": "MAEA is happy to be continuing our partnership with Connecticut Art Education Association (CAEA) to provide a conference opportunity this fall for our members.",
+      "cfpDeadline": "2026-06-23",
       "submissionStatus": "open",
-      "officialUrl": "https://euagenda.eu/events/2026/07/25/international-conference-on-artificial-intelligence-in-society-2026",
-      "sourceUrl": "https://euagenda.eu/events/2026/07/25/international-conference-on-artificial-intelligence-in-society-2026",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
+      "officialUrl": "https://massarted.com/conference",
+      "sourceUrl": "https://massarted.com/conference",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
+    },
+    {
+      "id": "2026-conference-writersassociationofnorthernappalachia-org-page-id-630",
+      "title": "2026 Conference",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-17",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Craft education",
+        "Pedagogy"
+      ],
+      "description": "Read our call for papers below. Call for Papers. Writers Association of ... Workshops (craft, pedagogy, or professional development); Lectures or ...",
+      "cfpDeadline": "2026-10-16",
+      "submissionStatus": "open",
+      "officialUrl": "https://writersassociationofnorthernappalachia.org/?page_id=630",
+      "sourceUrl": "https://writersassociationofnorthernappalachia.org/?page_id=630",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
+    },
+    {
+      "id": "making-sustainability-2026-international-conference-on-www-designsociety-org-204",
+      "title": "Making Sustainability 2026: International Conference on",
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-08",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Craft education",
+        "Education",
+        "Design research"
+      ],
+      "description": "... Craft Studies, or for inclusion in an edited book (publisher to be confirmed ... Call for Papers · Benefits of being a member. Join the Design Society to ...",
+      "cfpDeadline": "2026-10-01",
+      "submissionStatus": "open",
+      "officialUrl": "https://www.designsociety.org/2042/making_sustainability_2026_international_conference_on_craft_design_and_innovation",
+      "sourceUrl": "https://www.designsociety.org/2042/making_sustainability_2026_international_conference_on_craft_design_and_innovation",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
     },
     {
       "id": "the-art-of-the-brain-unlocking-the-power-www-fens-org-news-activities-fens-and-s",
@@ -110,20 +94,41 @@
       "continent": null,
       "categories": [
         "Art education",
-        "Education"
+        "Education",
+        "Visual art"
       ],
-      "description": "... 2026. Registration Deadline: 1 Mar 2026 ... Furthermore, understanding how art engages different brain regions can inform art education practices and create more ...",
+      "description": "Furthermore, understanding how art engages different brain regions can inform art education practices and create more effective and engaging learning ...",
       "cfpDeadline": "2026-06-30",
       "submissionStatus": "open",
       "officialUrl": "https://www.fens.org/news-activities/fens-and-societies-calendar/outreach-event/cfp-the-art-of-the-brain-unlocking-the-power-of-neuroaesthetics-in-the-age-of-artificial-intelligence",
       "sourceUrl": "https://www.fens.org/news-activities/fens-and-societies-calendar/outreach-event/cfp-the-art-of-the-brain-unlocking-the-power-of-neuroaesthetics-in-the-age-of-artificial-intelligence",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
+      "lastChecked": "2026-05-20T12:24:56.190Z"
     },
     {
-      "id": "future-of-practice-artists-and-art-in-21st-century-new-arthist-net-archive-51762",
-      "title": "Future of Practice: Artists and Art in 21st Century (New",
-      "startDate": "2026-08-19",
-      "endDate": "2026-08-20",
+      "id": "reimagining-place-and-place-based-art-education-call-for-papers-sas-upenn-edu-cf",
+      "title": "Reimagining Place and Place-Based Art Education",
+      "startDate": "2026-09-01",
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Art education",
+        "Education",
+        "Pedagogy"
+      ],
+      "description": "2026/03/03. Call for Papers: 'Reimagining Place and Place-Based Art Education'. deadline for submissions: September 1, 2026. full name / name of ...",
+      "cfpDeadline": "2026-09-01",
+      "submissionStatus": "open",
+      "officialUrl": "https://call-for-papers.sas.upenn.edu/cfp/2026/03/03/call-for-papers-%E2%80%98reimagining-place-and-place-based-art-education%E2%80%99",
+      "sourceUrl": "https://call-for-papers.sas.upenn.edu/cfp/2026/03/03/call-for-papers-%E2%80%98reimagining-place-and-place-based-art-education%E2%80%99",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
+    },
+    {
+      "id": "conference-information-illinois-art-education-association-ilaea-org-conference-i",
+      "title": "Conference Information – Illinois Art Education Association",
+      "startDate": "2026-08-01",
+      "endDate": null,
       "city": null,
       "country": null,
       "continent": null,
@@ -131,404 +136,228 @@
         "Art education",
         "Education"
       ],
-      "description": "CFP 15.02.2026. Future of Practice: Artists and Art in 21st Century (New Delhi, 19-20 Aug 26) ... Globally, artistic practice is shaped by art education, art world institutions, and digital media, all of which are driven by logics of value production.",
-      "cfpDeadline": "2026-08-19",
-      "submissionStatus": "open",
-      "officialUrl": "https://arthist.net/archive/51762",
-      "sourceUrl": "https://arthist.net/archive/51762",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "art-and-design-in-the-age-of-ai-deadline-11-sep-2026-www-artmarketstudies-org-cf",
-      "title": "Art and design in the age of AI (Deadline: 11 Sep 2026)",
-      "startDate": "2026-05-27",
-      "endDate": null,
-      "city": null,
-      "country": null,
-      "continent": null,
-      "categories": [
-        "Visual art",
-        "Education",
-        "Social sciences",
-        "Cultural studies",
-        "Humanities"
-      ],
-      "description": "Dec 13, 2025. ... Visual Art, AI, and the Law in the 21st Century (May 27, 2026) 18th April 2026 In \"Announcements\". CFP: Netherlandish Migrant Artists and the ...",
-      "cfpDeadline": "2026-09-11",
-      "submissionStatus": "open",
-      "officialUrl": "https://www.artmarketstudies.org/cfp-art-and-design-in-the-age-of-ai-deadline-11-sep-2026",
-      "sourceUrl": "https://www.artmarketstudies.org/cfp-art-and-design-in-the-age-of-ai-deadline-11-sep-2026",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "art-in-society-university-of-zagreb-1-4-july-2026-www-artmarketstudies-org-cfp-a",
-      "title": "Art in Society (University of Zagreb – 1-4 July 2026)",
-      "startDate": "2026-07-01",
-      "endDate": "2026-07-04",
-      "city": null,
-      "country": null,
-      "continent": null,
-      "categories": [
-        "Cultural studies"
-      ],
-      "description": "Dec 6, 2025. Contributions from disciplines beyond art history—including sociology, anthropology, cultural studies, architecture, urban studies, media ...",
-      "cfpDeadline": "2026-07-01",
-      "submissionStatus": "open",
-      "officialUrl": "https://www.artmarketstudies.org/cfp-art-in-society-university-of-zagreb-1-4-july-2026",
-      "sourceUrl": "https://www.artmarketstudies.org/cfp-art-in-society-university-of-zagreb-1-4-july-2026",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "2026-conference-new-directions-in-the-humanities-thehumanities-com-2026-conferen",
-      "title": "2026 Conference | New Directions in the Humanities",
-      "startDate": "2026-07-01",
-      "endDate": "2026-07-03",
-      "city": "Lisbon",
-      "country": "Portugal",
-      "continent": "Europe",
-      "categories": [
-        "Humanities",
-        "Education",
-        "Social sciences",
-        "Cultural studies"
-      ],
-      "description": "Twenty-Fourth International Conference on New Directions in the Humanities, NOVA School of Social Sciences and Humanities, Lisbon, Portugal, 1-3 July 2026.",
+      "description": "2026 Conference Info. 2026 Schedule; Registration Pricing; Hotel Booking; Featured Speakers ... Illinois Art Education Association · Contact Us · Member Login.",
       "cfpDeadline": null,
       "submissionStatus": "unknown",
-      "officialUrl": "https://thehumanities.com/2026-conference",
-      "sourceUrl": "https://thehumanities.com/2026-conference",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
+      "officialUrl": "https://ilaea.org/conference-information",
+      "sourceUrl": "https://ilaea.org/conference-information",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
     },
     {
-      "id": "pdes-2027-www-pdes-conference-eu-page-cfp",
-      "title": "PDES 2027",
-      "startDate": "2027-05-19",
-      "endDate": "2027-05-21",
+      "id": "2026-annual-taea-conference-www-taea-org-taea-conference-asp",
+      "title": "2026 Annual TAEA Conference",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-14",
       "city": null,
       "country": null,
       "continent": null,
       "categories": [
+        "Art education",
+        "Education",
+        "Visual art"
+      ],
+      "description": "Welcome to the 2026 Texas Art Education Association Annual Conference at the Moody Gardens Hotel & Convention Center in Galveston, Texas, November 12-14, 2026!",
+      "cfpDeadline": null,
+      "submissionStatus": "unknown",
+      "officialUrl": "https://www.taea.org/taea/conference.asp",
+      "sourceUrl": "https://www.taea.org/taea/conference.asp",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
+    },
+    {
+      "id": "now-conference-theartofeducation-edu-now",
+      "title": "NOW Conference",
+      "startDate": "2026-07-31",
+      "endDate": "2026-08-02",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Art education",
+        "Education",
+        "Visual art"
+      ],
+      "description": "Summer 2026 Presenters. Here is the first round of presenters joining this year's ... Center for the Advancement of Art Education · Find Your State · Terms ...",
+      "cfpDeadline": null,
+      "submissionStatus": "unknown",
+      "officialUrl": "https://theartofeducation.edu/now",
+      "sourceUrl": "https://theartofeducation.edu/now",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
+    },
+    {
+      "id": "craft-thinking-making-craft-studies-conference-southernhighlandguild-org-news-st",
+      "title": "Craft Thinking & Making: Craft Studies Conference",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-18",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Craft education",
         "Education"
       ],
-      "description": "Education in Embedded and Programmable Control Systems. Organized by. Department of Cybernetics and Biomedical Engineering, Faculty of Electrical Engineering ...",
-      "cfpDeadline": "2027-05-19",
-      "submissionStatus": "open",
-      "officialUrl": "https://www.pdes-conference.eu/?page=cfp",
-      "sourceUrl": "https://www.pdes-conference.eu/?page=cfp",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "2026-conference-thesocialsciences-com-2026-conference",
-      "title": "2026 Conference",
-      "startDate": "2026-07-15",
-      "endDate": "2026-07-17",
-      "city": null,
-      "country": "Ireland",
-      "continent": "Europe",
-      "categories": [
-        "Social sciences",
-        "Education",
-        "Cultural studies",
-        "Humanities"
-      ],
-      "description": "Twenty-First International Conference on Interdisciplinary Social Sciences, University of Galway, Galway, Ireland, 15-17 July 2026.",
+      "description": "Craft Making & Thinking: Craft Studies Conference. Presented by the Southern Highland Craft Guild March 1-3, 2024 at the Folk Art Center in Asheville, NC ...",
       "cfpDeadline": null,
       "submissionStatus": "unknown",
-      "officialUrl": "https://thesocialsciences.com/2026-conference",
-      "sourceUrl": "https://thesocialsciences.com/2026-conference",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
+      "officialUrl": "https://southernhighlandguild.org/news-stories/craft-thinking-making-craft-studies-conference",
+      "sourceUrl": "https://southernhighlandguild.org/news-stories/craft-thinking-making-craft-studies-conference",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
     },
     {
-      "id": "ecer-2026-tampere-eera-eera-ecer-de-conferences-ecer-2026-tampere",
-      "title": "ECER 2026, Tampere | EERA",
-      "startDate": "2026-08-18",
-      "endDate": "2026-08-21",
-      "city": "Tampere",
+      "id": "craft-thinking-making-craft-studies-conference-southern-us-trip-com-events-craft",
+      "title": "Craft Thinking & Making: Craft Studies Conference | Southern",
+      "startDate": "2026-12-11",
+      "endDate": "2026-12-13",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Craft education"
+      ],
+      "description": "Craft Thinking & Making: Craft Studies Conference is a highly anticipated event hosted by the Southern Highland Craft Guild in Asheville.",
+      "cfpDeadline": null,
+      "submissionStatus": "unknown",
+      "officialUrl": "https://us.trip.com/events/craft-thinking--making-craft-studies-conference-20240205",
+      "sourceUrl": "https://us.trip.com/events/craft-thinking--making-craft-studies-conference-20240205",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
+    },
+    {
+      "id": "craft-thinking-making-craft-studies-conference-southernhighlandguild-org-news-st",
+      "title": "Craft Thinking & Making: Craft Studies Conference",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-18",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Craft education",
+        "Education"
+      ],
+      "description": "This conference is an opportunity to focus on critical engagement and thinking through craft. The field of Critical Craft Studies is not critical of craft in a ...",
+      "cfpDeadline": null,
+      "submissionStatus": "unknown",
+      "officialUrl": "https://southernhighlandguild.org/news-stories/craft-thinking-making-critical-studies-conference",
+      "sourceUrl": "https://southernhighlandguild.org/news-stories/craft-thinking-making-critical-studies-conference",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
+    },
+    {
+      "id": "nordfo-conference-2026-www-konstfack-se-en-about-konstfack-departments-departmen",
+      "title": "NordFo conference 2026",
+      "startDate": "2026-09-23",
+      "endDate": "2026-09-25",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Craft education",
+        "Education",
+        "Visual art"
+      ],
+      "description": "Apr 14, 2026. Lectures, paper presentations, posters and workshops with a focus on socio-material perspectives of sloyd/crafts, drawing inspiration from, for ...",
+      "cfpDeadline": null,
+      "submissionStatus": "unknown",
+      "officialUrl": "https://www.konstfack.se/en/About-Konstfack/Departments/Department-of-Visual-Arts-Education/NordFo-conference-2026",
+      "sourceUrl": "https://www.konstfack.se/en/About-Konstfack/Departments/Department-of-Visual-Arts-Education/NordFo-conference-2026",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
+    },
+    {
+      "id": "aktuellt-ncm-g-teborgs-universitet-ncm-gu-se-aktuellt",
+      "title": "Aktuellt - NCM - Göteborgs universitet",
+      "startDate": "2026-12-08",
+      "endDate": null,
+      "city": null,
       "country": "Finland",
       "continent": "Europe",
       "categories": [
-        "Education",
-        "Pedagogy"
-      ],
-      "description": "Jun 26, 2025. Research on Citizenship Education Season School 2026:On field research in citizenship education ... 18 - 21 August 2026 - European Conference ...",
-      "cfpDeadline": null,
-      "submissionStatus": "unknown",
-      "officialUrl": "https://eera-ecer.de/conferences/ecer-2026-tampere",
-      "sourceUrl": "https://eera-ecer.de/conferences/ecer-2026-tampere",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "a-focus-on-pedagogy-universidad-polit-cnica-de-madrid-amps-research-com-conferen",
-      "title": "A Focus on Pedagogy Universidad Politécnica de Madrid",
-      "startDate": "2026-06-24",
-      "endDate": "2026-06-26",
-      "city": "Madrid",
-      "country": "Spain",
-      "continent": "Europe",
-      "categories": [
-        "Pedagogy",
-        "Education",
-        "Social sciences",
-        "Cultural studies",
-        "Humanities"
-      ],
-      "description": "Abstract Date: April 10, 2026. Abstracts Register. June 2026. Universidad Politécnica de Madrid | Routledge | AMPS. A conference in the Focus on Pedagogy Series.",
-      "cfpDeadline": null,
-      "submissionStatus": "unknown",
-      "officialUrl": "https://amps-research.com/conference/pedagogy-madrid",
-      "sourceUrl": "https://amps-research.com/conference/pedagogy-madrid",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "the-creative-psyche-and-arts-based-research-www-conferencesked-com-conference-de",
-      "title": "The Creative Psyche and Arts-Based Research",
-      "startDate": "2026-05-21",
-      "endDate": null,
-      "city": "London",
-      "country": "United Kingdom",
-      "continent": "Europe",
-      "categories": [
-        "Arts-based research",
+        "Craft education",
         "Education"
       ],
-      "description": "The Creative Psyche and Arts-Based Research: A Transdisciplinary Conference in London, United Kingdom from 14th June 2025 to 15th June 2025.",
+      "description": "januari 21 MADIF – Göteborg 27-28 januari 2026 – Call for papers. januari 21 ... mars 31 Slöjd + kod = sant i Finland. mars 31 Why America's obsession ...",
       "cfpDeadline": null,
       "submissionStatus": "unknown",
-      "officialUrl": "https://www.conferencesked.com/conference_details/12480/the-creative-psyche-and-arts-based-research-a-transdisciplinary-conference",
-      "sourceUrl": "https://www.conferencesked.com/conference_details/12480/the-creative-psyche-and-arts-based-research-a-transdisciplinary-conference",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
+      "officialUrl": "https://ncm.gu.se/aktuellt",
+      "sourceUrl": "https://ncm.gu.se/aktuellt",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
     },
     {
-      "id": "the-future-of-education-conference-pixel-online-net-foe-index-php",
-      "title": "The Future of Education",
-      "startDate": "2026-06-18",
-      "endDate": "2026-06-19",
-      "city": null,
-      "country": "Italy",
-      "continent": "Europe",
-      "categories": [
-        "Education"
-      ],
-      "description": "18 - 19 June 2026, in Florence. The 16th Edition of the International Conference The Future of Education will take place in Florence (Italy) on 18 - 19 June ...",
-      "cfpDeadline": null,
-      "submissionStatus": "unknown",
-      "officialUrl": "https://conference.pixel-online.net/FOE/index.php",
-      "sourceUrl": "https://conference.pixel-online.net/FOE/index.php",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "eadh-conference-2026-linking-europe-eadh-org-news-2025-12-04-cfp-eadh-conference",
-      "title": "EADH Conference 2026 – “Linking Europe",
-      "startDate": "2026-09-15",
-      "endDate": "2026-09-19",
+      "id": "2027-naea-national-convention-www-arteducators-org-event-2026-naea-national-conv",
+      "title": "2027 NAEA National Convention",
+      "startDate": "2027-03-04",
+      "endDate": "2027-03-06",
       "city": null,
       "country": null,
       "continent": null,
       "categories": [
-        "Digital humanities",
+        "Art education",
         "Education",
-        "Humanities"
-      ],
-      "description": "Dec 4, 2025. The EADH 2026 conference will take place from 15 to 19 September 2026 ... #CfP: EADH Conference 2026 – “Linking Europe: Digital Humanities Without ...",
-      "cfpDeadline": null,
-      "submissionStatus": "unknown",
-      "officialUrl": "https://eadh.org/news/2025/12/04/cfp-eadh-conference-2026-linking-europe-digital-humanities-without-borders",
-      "sourceUrl": "https://eadh.org/news/2025/12/04/cfp-eadh-conference-2026-linking-europe-digital-humanities-without-borders",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "4th-international-environmental-humanities-conference-www-easlce-eu-cfp-4th-inte",
-      "title": "4th International Environmental Humanities Conference",
-      "startDate": "2026-05-20",
-      "endDate": "2026-05-23",
-      "city": null,
-      "country": null,
-      "continent": null,
-      "categories": [
-        "Humanities",
         "Visual art"
       ],
-      "description": "The 4th International Environmental Humanities Conference invites scholars, artists, writers, and practitioners to contribute to ongoing conversations that ...",
+      "description": "2026 NAEA National Leadership Conference. The National Art Education Association (NAEA) invites state and provincial association leaders, Interest Group leaders ...",
       "cfpDeadline": null,
       "submissionStatus": "unknown",
-      "officialUrl": "https://www.easlce.eu/cfp-4th-international-environmental-humanities-conference",
-      "sourceUrl": "https://www.easlce.eu/cfp-4th-international-environmental-humanities-conference",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
+      "officialUrl": "https://www.arteducators.org/event/2026-naea-national-convention",
+      "sourceUrl": "https://www.arteducators.org/event/2026-naea-national-convention",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
     },
     {
-      "id": "14th-international-conference-on-sustainability-euagenda-eu-events-2026-07-25-14",
-      "title": "14th International Conference on Sustainability",
-      "startDate": "2026-07-25",
+      "id": "events-and-opportunities-national-art-education-www-arteducators-org-events-and-",
+      "title": "Events and Opportunities - National Art Education",
+      "startDate": "2026-07-24",
       "endDate": null,
       "city": null,
       "country": null,
       "continent": null,
       "categories": [
-        "Technology and education",
-        "Education"
-      ],
-      "description": "Jul 25, 2026. 25 Jul 2026. 14th International Conference on Sustainability, Technology and Education 2026. The STE 2026 aims to address the main issues ...",
-      "cfpDeadline": null,
-      "submissionStatus": "unknown",
-      "officialUrl": "https://euagenda.eu/events/2026/07/25/14th-international-conference-on-sustainability-technology-and-education-2026",
-      "sourceUrl": "https://euagenda.eu/events/2026/07/25/14th-international-conference-on-sustainability-technology-and-education-2026",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "8th-international-art-and-the-city-conference-nicosia-10-arthist-net-archive-510",
-      "title": "8th International Art and the City Conference (Nicosia, 10-",
-      "startDate": null,
-      "endDate": null,
-      "city": null,
-      "country": null,
-      "continent": null,
-      "categories": [
-        "Artistic research",
-        "Social sciences",
-        "Humanities"
-      ],
-      "description": "Nov 1, 2025. ... artistic research, urban ecologies, and contemporary theory. Interdisciplinary Scientific Committee 2026. Konstantinos Avramidis ...",
-      "cfpDeadline": "2026-06-10",
-      "submissionStatus": "open",
-      "officialUrl": "https://arthist.net/archive/51041",
-      "sourceUrl": "https://arthist.net/archive/51041",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "european-social-science-history-conference-2027-deadline-ariseweb-org-2026-02-23",
-      "title": "European Social Science History Conference 2027 (deadline",
-      "startDate": null,
-      "endDate": null,
-      "city": null,
-      "country": null,
-      "continent": null,
-      "categories": [
-        "Social sciences"
-      ],
-      "description": "Feb 23, 2026. The aim of the ESSHC is bringing together scholars interested in explaining historical phenomena using the methods of the social sciences. The ...",
-      "cfpDeadline": "2027-04-21",
-      "submissionStatus": "open",
-      "officialUrl": "https://ariseweb.org/2026/02/23/cfp-european-social-science-history-conference-2027",
-      "sourceUrl": "https://ariseweb.org/2026/02/23/cfp-european-social-science-history-conference-2027",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "eaeeie-2026-easychair-org-cfp-eaeeie2026",
-      "title": "eaeeie 2026",
-      "startDate": "2026-06-03",
-      "endDate": "2026-06-05",
-      "city": null,
-      "country": null,
-      "continent": null,
-      "categories": [
-        "Education"
-      ],
-      "description": "Mar 6, 2026. The EAEEIE Annual Conference is held every year by the European Association for Education in Electrical and Information Engineering (EAEEIE).",
-      "cfpDeadline": null,
-      "submissionStatus": "unknown",
-      "officialUrl": "https://easychair.org/cfp/EAEEIE2026",
-      "sourceUrl": "https://easychair.org/cfp/EAEEIE2026",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "petrocultures-2026-www-reportha-org-en-news-item-871-cfp-petrocultures-2026",
-      "title": "Petrocultures 2026",
-      "startDate": "2026-08-26",
-      "endDate": "2026-08-28",
-      "city": null,
-      "country": null,
-      "continent": null,
-      "categories": [
-        "Future studies"
-      ],
-      "description": "Oct 24, 2025. A collaboration of the Chairs of North American Literature and Future Studies, Digital Cultures, Microsociology and Techno-Social Interaction, ...",
-      "cfpDeadline": null,
-      "submissionStatus": "unknown",
-      "officialUrl": "https://www.reportha.org/en/news/item/871-cfp-petrocultures-2026",
-      "sourceUrl": "https://www.reportha.org/en/news/item/871-cfp-petrocultures-2026",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "jagiello-skie-centrum-humanistyki-cyfrowej-eadh2026-confer-uj-edu-pl-cfp",
-      "title": "Jagiellońskie Centrum Humanistyki Cyfrowej",
-      "startDate": "2026-09-15",
-      "endDate": "2026-09-19",
-      "city": null,
-      "country": null,
-      "continent": null,
-      "categories": [
-        "Digital humanities",
-        "Humanities"
-      ],
-      "description": "European Association for Digital Humanities 2026 Call for Papers Location: Jagiellonian University, Kraków, Poland Dates: 15-19 September 2026.",
-      "cfpDeadline": null,
-      "submissionStatus": "unknown",
-      "officialUrl": "https://eadh2026.confer.uj.edu.pl/cfp",
-      "sourceUrl": "https://eadh2026.confer.uj.edu.pl/cfp",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "petrocultures-2026-situating-energy-call-for-papers-sas-upenn-edu-cfp-2025-10-15",
-      "title": "Petrocultures 2026: Situating Energy",
-      "startDate": "2026-08-26",
-      "endDate": "2026-08-28",
-      "city": null,
-      "country": null,
-      "continent": null,
-      "categories": [
-        "Science studies",
-        "Artistic research",
-        "Social sciences",
-        "Cultural studies",
-        "Humanities"
-      ],
-      "description": "Oct 15, 2025. Drawing on feminist science studies, 'situating' is a critical intervention that grounds knowledge practices in the material, ideological ...",
-      "cfpDeadline": null,
-      "submissionStatus": "unknown",
-      "officialUrl": "https://call-for-papers.sas.upenn.edu/cfp/2025/10/15/petrocultures-2026-situating-energy",
-      "sourceUrl": "https://call-for-papers.sas.upenn.edu/cfp/2025/10/15/petrocultures-2026-situating-energy",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "drs2026-edinburgh-call-for-papers-www-designresearchsociety-org-articles-drs2026",
-      "title": "DRS2026 Edinburgh: Call for Papers",
-      "startDate": "2026-05-25",
-      "endDate": null,
-      "city": null,
-      "country": null,
-      "continent": null,
-      "categories": [
-        "Design research",
-        "Education"
-      ],
-      "description": "The Design Research Society 2026 Conference is a global forum for advancing design knowledge and practice. We welcome paper submissions that explore diverse ...",
-      "cfpDeadline": null,
-      "submissionStatus": "unknown",
-      "officialUrl": "https://www.designresearchsociety.org/articles/drs2026-edinburgh-call-for-papers",
-      "sourceUrl": "https://www.designresearchsociety.org/articles/drs2026-edinburgh-call-for-papers",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
-    },
-    {
-      "id": "new-european-trends-in-ecocriticism-and-climate-change-call-for-papers-sas-upenn",
-      "title": "New European Trends in Ecocriticism and Climate Change",
-      "startDate": null,
-      "endDate": null,
-      "city": null,
-      "country": null,
-      "continent": null,
-      "categories": [
-        "Pedagogy",
+        "Art education",
         "Education",
-        "Digital humanities",
-        "Cultural studies",
-        "Humanities"
+        "Visual art"
       ],
-      "description": "Jan 8, 2026. Conference Dates: 28-29 May 2026. Venue: Centre for European ... pedagogy · poetry · popular culture · postcolonial · professional topics ...",
-      "cfpDeadline": "2026-05-28",
+      "description": "July 24, 2026 | 8:00 AM. 2026 NAEA National Leadership Conference. The National Art Education Association (NAEA) invites state and provincial association ...",
+      "cfpDeadline": null,
+      "submissionStatus": "unknown",
+      "officialUrl": "https://www.arteducators.org/events-and-opportunities",
+      "sourceUrl": "https://www.arteducators.org/events-and-opportunities",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
+    },
+    {
+      "id": "internationalizing-teacher-training-programs-in-arts-journal-fi-rae-announcement",
+      "title": "Internationalizing Teacher Training Programs in Arts",
+      "startDate": null,
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Craft education",
+        "Education",
+        "Visual art",
+        "Pedagogy",
+        "Arts-based research"
+      ],
+      "description": "5 days ago. Call for Papers: Internationalizing Teacher Training Programs in Arts Education ... Craft Education” Development Project (2024–2027) that ...",
+      "cfpDeadline": "2026-10-09",
       "submissionStatus": "open",
-      "officialUrl": "https://call-for-papers.sas.upenn.edu/cfp/2026/01/08/extended-deadline-conference-new-european-trends-in-ecocriticism-and-climate-change",
-      "sourceUrl": "https://call-for-papers.sas.upenn.edu/cfp/2026/01/08/extended-deadline-conference-new-european-trends-in-ecocriticism-and-climate-change",
-      "lastChecked": "2026-05-20T11:48:19.537Z"
+      "officialUrl": "https://journal.fi/rae/announcement/view/1023",
+      "sourceUrl": "https://journal.fi/rae/announcement/view/1023",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
+    },
+    {
+      "id": "representing-craft-crafting-representation-dhs-dialogues-www-designhistorysociet",
+      "title": "Representing Craft/Crafting Representation: DHS Dialogues",
+      "startDate": null,
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Craft education",
+        "Pedagogy"
+      ],
+      "description": "□ representing craft pedagogy/crafting pedagogic representation ... Design History Society 2026 Conference - Call for Papers now open. 8 October ...",
+      "cfpDeadline": "2026-06-12",
+      "submissionStatus": "open",
+      "officialUrl": "https://www.designhistorysociety.org/news/view/representing-craft-crafting-representation-dhs-dialogues",
+      "sourceUrl": "https://www.designhistorysociety.org/news/view/representing-craft-crafting-representation-dhs-dialogues",
+      "lastChecked": "2026-05-20T12:24:56.190Z"
     }
   ]
 }
