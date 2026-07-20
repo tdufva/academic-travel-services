@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T08:28:03.122Z",
+  "generatedAt": "2026-07-20T08:18:31.731Z",
   "generatedBy": "serpapi-google",
   "notes": "Generated from public search results. Values that cannot be confidently extracted are stored as null or unknown. Verify details on official conference websites.",
   "items": [
@@ -19,7 +19,26 @@
       "submissionStatus": "open",
       "officialUrl": "https://agingandsocialchange.com/2026-conference/call-for-papers",
       "sourceUrl": "https://agingandsocialchange.com/2026-conference/call-for-papers",
-      "lastChecked": "2026-07-13T08:28:03.122Z"
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "european-academy-of-design-home-eadresearch-org",
+      "title": "European Academy of Design: Home",
+      "startDate": "2026-09-15",
+      "endDate": null,
+      "city": "Porto",
+      "country": "Portugal",
+      "continent": "Europe",
+      "categories": [
+        "Design research",
+        "Pedagogy"
+      ],
+      "description": "In such shifting terrain, how can design research strengthen and regenerate the foundations of trust? ... EAD2027 CALL FOR SUBMISSIONS NOW OPEN. The EAD Porto ...",
+      "cfpDeadline": "2026-09-15",
+      "submissionStatus": "open",
+      "officialUrl": "https://eadresearch.org",
+      "sourceUrl": "https://eadresearch.org",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
     },
     {
       "id": "generations-at-work-a-fairer-future-for-learning-earning-and-longevity-www-dcu-i",
@@ -40,7 +59,633 @@
       "submissionStatus": "open",
       "officialUrl": "https://www.dcu.ie/agefriendly/AFU-Conference-2026",
       "sourceUrl": "https://www.dcu.ie/agefriendly/AFU-Conference-2026",
-      "lastChecked": "2026-07-13T08:28:03.122Z"
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "calls-for-papers-for-conferences-taking-place-in-april-2027-essenglish-org-cfp-c",
+      "title": "Calls for papers for conferences taking place in April 2027",
+      "startDate": "2027-04-01",
+      "endDate": "2027-04-03",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Literature",
+        "Visual art",
+        "Cultural studies",
+        "Humanities"
+      ],
+      "description": "FEMINANIMALS: Representations of Women and/as Animals in Literature, Arts, and Other Media. ... CFP. CCL 5 – Call for Papers Download. (Posted 6 May 2026).",
+      "cfpDeadline": "2026-09-30",
+      "submissionStatus": "open",
+      "officialUrl": "https://essenglish.org/cfp-conferences-april-2027",
+      "sourceUrl": "https://essenglish.org/cfp-conferences-april-2027",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "11th-congress-of-the-european-society-of-comparative-www-fabula-org-actualites-1",
+      "title": "11th Congress of the European Society of Comparative",
+      "startDate": "2026-08-24",
+      "endDate": "2026-08-28",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Literature"
+      ],
+      "description": "16 Okt 2025. Call for Papers: 11th Congress of the European Society of Comparative Literature (ESCL). University of Leeds, 24-28 August 2026.",
+      "cfpDeadline": "2026-08-24",
+      "submissionStatus": "open",
+      "officialUrl": "https://www.fabula.org/actualites/130205/11th-congress-of-the-european-society-of-comparative-literature-escl.html",
+      "sourceUrl": "https://www.fabula.org/actualites/130205/11th-congress-of-the-european-society-of-comparative-literature-escl.html",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "conference-www-culturalstudiesassociation-org-conference-html",
+      "title": "Conference",
+      "startDate": "2027-05-27",
+      "endDate": "2027-05-29",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Cultural studies"
+      ],
+      "description": "Programs from past conferences are also available. 2027 Cultural Studies Association (CSA) Annual Conference ... CFP: 2027 COMING SOON! Prizes and Grants >.",
+      "cfpDeadline": "2027-01-15",
+      "submissionStatus": "open",
+      "officialUrl": "https://www.culturalstudiesassociation.org/conference.html",
+      "sourceUrl": "https://www.culturalstudiesassociation.org/conference.html",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "20-th-annual-international-conference-on-literature-www-atiner-gr-literature",
+      "title": "20 th Annual International Conference on Literature",
+      "startDate": "2027-06-01",
+      "endDate": "2027-06-05",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Literature",
+        "Education"
+      ],
+      "description": "The aim of the conference is to bring together academics and researchers from all areas of literature and other related disciplines.",
+      "cfpDeadline": "2026-11-03",
+      "submissionStatus": "open",
+      "officialUrl": "https://www.atiner.gr/literature",
+      "sourceUrl": "https://www.atiner.gr/literature",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "vernon-lee-conference-u-liverpool-1-3-britishwomenwriters-org-2025-11-03-cfp-for",
+      "title": "Vernon Lee Conference (U Liverpool, 1-3",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-03",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Media education",
+        "Education"
+      ],
+      "description": "Nov 3, 2025. CFP for Vernon Lee Conference (U Liverpool, 1-3 September 2026) ... media, education, religion—is currently gripping Western Europe and the US.",
+      "cfpDeadline": "2026-09-01",
+      "submissionStatus": "open",
+      "officialUrl": "https://britishwomenwriters.org/2025/11/03/cfp-for-vernon-lee-conference-u-liverpool-1-3-september-2026",
+      "sourceUrl": "https://britishwomenwriters.org/2025/11/03/cfp-for-vernon-lee-conference-u-liverpool-1-3-september-2026",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "15th-international-behavioral-and-social-sciences-conference-www-icrbs-org",
+      "title": "15th International Behavioral and Social Sciences Conference",
+      "startDate": "2026-12-04",
+      "endDate": "2026-12-06",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Social sciences",
+        "Humanities",
+        "Literature"
+      ],
+      "description": "All on-site attendees of the Behavioral and Social Sciences Conference 2026 ... Call for Papers · Humanities · Language and Literature · Social Sciences · Privacy ...",
+      "cfpDeadline": "2026-11-24",
+      "submissionStatus": "open",
+      "officialUrl": "https://www.icrbs.org",
+      "sourceUrl": "https://www.icrbs.org",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "call-for-paper-education-conference-2026-nottingham-www-eduglobalconf-org-call-f",
+      "title": "Call for paper education conference 2026 Nottingham",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-14",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Pedagogy",
+        "Art education",
+        "Education"
+      ],
+      "description": "Be a Part of the Future of Education: Call for Papers 2026 Education Now Open ... Teaching method Promote; Pedagogy; Curriculum, Research and Development ...",
+      "cfpDeadline": "2026-10-23",
+      "submissionStatus": "open",
+      "officialUrl": "https://www.eduglobalconf.org/call-for-papers",
+      "sourceUrl": "https://www.eduglobalconf.org/call-for-papers",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "eadi-news-www-eadi-org-news-eadi-news",
+      "title": "EADI News",
+      "startDate": "2026-09-24",
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Future studies"
+      ],
+      "description": "What Future Studies can bring to Global Development. 03 March 2026. This ... Call for papers: Views on Development from the Peripheries of Europe. 16-17 ...",
+      "cfpDeadline": "2026-09-30",
+      "submissionStatus": "open",
+      "officialUrl": "https://www.eadi.org/news/eadi-news",
+      "sourceUrl": "https://www.eadi.org/news/eadi-news",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "category-cfp-iftr-org-category-cfp",
+      "title": "Category: CFP",
+      "startDate": "2027-07-02",
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Artistic research",
+        "Humanities"
+      ],
+      "description": "28 June – 2 July 2027 Call for Papers The next IFTR conference 2027 will be ... CFP: Artistic Research in the Performing Arts in Central and Eastern Europe.",
+      "cfpDeadline": "2027-07-02",
+      "submissionStatus": "open",
+      "officialUrl": "https://iftr.org/category/cfp",
+      "sourceUrl": "https://iftr.org/category/cfp",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "arts-university-plymouth-opens-call-for-papers-for-making-www-aup-ac-uk-posts-ma",
+      "title": "Arts University Plymouth opens call for papers for Making",
+      "startDate": "2026-10-29",
+      "endDate": "2026-10-31",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Craft education",
+        "Education"
+      ],
+      "description": "Thursday, 21 May, 2026 — Call for papers now open for Making Futures 2026, exploring care, reciprocity and responsive matter in contemporary craft. ... craft education. Making Futures 2026 invites researchers ...",
+      "cfpDeadline": "2026-07-20",
+      "submissionStatus": "open",
+      "officialUrl": "https://www.aup.ac.uk/posts/making-futures-2026-call-for-papers",
+      "sourceUrl": "https://www.aup.ac.uk/posts/making-futures-2026-call-for-papers",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "call-for-expressions-of-interest-to-host-drs2026-and-www-designresearchsociety-o",
+      "title": "Call for Expressions of Interest to Host DRS2026 and",
+      "startDate": "2026-10-28",
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Design research"
+      ],
+      "description": "Jan 17, 2025. The Design Research Society welcomes expressions of interest to host the 2026 and 2028 International Design Research Society Conference.",
+      "cfpDeadline": "2026-10-28",
+      "submissionStatus": "open",
+      "officialUrl": "https://www.designresearchsociety.org/articles/call-for-expressions-of-interest-to-host-drs2026-and-drs2028",
+      "sourceUrl": "https://www.designresearchsociety.org/articles/call-for-expressions-of-interest-to-host-drs2026-and-drs2028",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "the-conference-ead2027-trust-fba-up-pt",
+      "title": "The Conference | EAD2027",
+      "startDate": "2027-05-03",
+      "endDate": "2027-05-07",
+      "city": "Porto",
+      "country": "Portugal",
+      "continent": "Europe",
+      "categories": [
+        "Design research",
+        "Visual art"
+      ],
+      "description": "Call for Submissions · Research Tracks · Register · Join Us In Porto · People ... design research in Europe.\" Conference Theme. Who or what do we really trust ...",
+      "cfpDeadline": null,
+      "submissionStatus": "unknown",
+      "officialUrl": "https://trust.fba.up.pt",
+      "sourceUrl": "https://trust.fba.up.pt",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "reimagining-place-and-place-based-art-education-call-for-papers-sas-upenn-edu-cf",
+      "title": "Reimagining Place and Place-Based Art Education",
+      "startDate": "2026-09-01",
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Art education",
+        "Education",
+        "Pedagogy"
+      ],
+      "description": "Mar 3, 2026. 2026/03/03. Call for Papers: 'Reimagining Place and Place-Based Art Education'. deadline for submissions: September 1, 2026. full name ...",
+      "cfpDeadline": "2026-09-01",
+      "submissionStatus": "open",
+      "officialUrl": "https://call-for-papers.sas.upenn.edu/cfp/2026/03/03/call-for-papers-%E2%80%98reimagining-place-and-place-based-art-education%E2%80%99",
+      "sourceUrl": "https://call-for-papers.sas.upenn.edu/cfp/2026/03/03/call-for-papers-%E2%80%98reimagining-place-and-place-based-art-education%E2%80%99",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "across-teaching-theory-technologies-and-times-www-aasa-arch-org-post-call-for-pa",
+      "title": "Across Teaching, Theory, Technologies and Times",
+      "startDate": "2026-11-18",
+      "endDate": "2026-11-20",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Pedagogy"
+      ],
+      "description": "Mar 16, 2026. Call for Papers /// Across Teaching, Theory, Technologies and Times ... The 2026 Routledge 'Focus on Pedagogy Conference Series' is an innovative ...",
+      "cfpDeadline": "2026-11-18",
+      "submissionStatus": "open",
+      "officialUrl": "https://www.aasa-arch.org/post/call-for-papers-----across-teaching-theory-technologies-and-times-18-20-november-2026-online",
+      "sourceUrl": "https://www.aasa-arch.org/post/call-for-papers-----across-teaching-theory-technologies-and-times-18-20-november-2026-online",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "eva-conference-2026-berlin-18-20-mar-26-www-artmarketstudies-org-cfp-eva-confere",
+      "title": "EVA Conference 2026 (Berlin, 18-20 Mar 26)",
+      "startDate": null,
+      "endDate": null,
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe",
+      "categories": [
+        "Art education",
+        "Education",
+        "Visual art",
+        "Digital humanities",
+        "Humanities",
+        "Pedagogy"
+      ],
+      "description": "Jun 21, 2025. CFP: EVA Conference 2026 (Berlin, 18-20 Mar 26). EVA Berlin Conference ... Art education and mediation – Visual languages for knowledge ...",
+      "cfpDeadline": "2027-04-12",
+      "submissionStatus": "open",
+      "officialUrl": "https://www.artmarketstudies.org/cfp-eva-conference-2026-berlin-18-20-mar-26",
+      "sourceUrl": "https://www.artmarketstudies.org/cfp-eva-conference-2026-berlin-18-20-mar-26",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "vienna-conference-on-the-social-sciences-2026-centerforinterculturaldialogue-org",
+      "title": "Vienna Conference on the Social Sciences 2026",
+      "startDate": null,
+      "endDate": null,
+      "city": "Vienna",
+      "country": "Austria",
+      "continent": "Europe",
+      "categories": [
+        "Social sciences",
+        "Education",
+        "Humanities",
+        "Pedagogy"
+      ],
+      "description": "Jun 18, 2026. Call for papers: The Vienna Conference on the Social Sciences, 13-17 November 2026, Vienna, Austria. Deadline: 30 July 2026.",
+      "cfpDeadline": "2026-07-30",
+      "submissionStatus": "open",
+      "officialUrl": "https://centerforinterculturaldialogue.org/2026/06/18/cfp-vienna-conference-on-the-social-sciences-2026-austria",
+      "sourceUrl": "https://centerforinterculturaldialogue.org/2026/06/18/cfp-vienna-conference-on-the-social-sciences-2026-austria",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "renaissance-resonances-across-time-www-medievalart-org-icmacommunitynews-call-fo",
+      "title": "Renaissance Resonances: Across Time",
+      "startDate": "2026-08-02",
+      "endDate": null,
+      "city": "London",
+      "country": "United Kingdom",
+      "continent": "Europe",
+      "categories": [
+        "Arts-based research",
+        "Visual art",
+        "Literature"
+      ],
+      "description": "Call for Papers: Renaissance Resonances: Across Time, Across Disciplines: A Transdisciplinary Conference, London & Online (20-21 April 2024), Due by 22 ...",
+      "cfpDeadline": null,
+      "submissionStatus": "unknown",
+      "officialUrl": "https://www.medievalart.org/icmacommunitynews/call-for-papers-renaissance-resonances-across-time-across-disciplines-a-transdisciplinary-conference-london-amp-online-20-21-april-2024-due-by-22-march-2024",
+      "sourceUrl": "https://www.medievalart.org/icmacommunitynews/call-for-papers-renaissance-resonances-across-time-across-disciplines-a-transdisciplinary-conference-london-amp-online-20-21-april-2024-due-by-22-march-2024",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "cfp-eadh-conference-2026-linking-europe-digital-eadh-org-news-2025-12-04-cfp-ead",
+      "title": "#CfP: EADH Conference 2026 – “Linking Europe: Digital",
+      "startDate": "2026-09-15",
+      "endDate": "2026-09-19",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Digital humanities",
+        "Education",
+        "Humanities"
+      ],
+      "description": "Dec 4, 2025. The EADH 2026 conference will take place from 15 to 19 September 2026 ... #CfP: EADH Conference 2026 – “Linking Europe: Digital Humanities Without ...",
+      "cfpDeadline": null,
+      "submissionStatus": "unknown",
+      "officialUrl": "https://eadh.org/news/2025/12/04/cfp-eadh-conference-2026-linking-europe-digital-humanities-without-borders",
+      "sourceUrl": "https://eadh.org/news/2025/12/04/cfp-eadh-conference-2026-linking-europe-digital-humanities-without-borders",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "calls-for-papers-for-conferences-taking-place-in-november-essenglish-org-cfp-con",
+      "title": "Calls for papers for conferences taking place in November",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-07",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Humanities",
+        "Education",
+        "Cultural studies",
+        "Literature",
+        "Pedagogy"
+      ],
+      "description": "For further details, please check the original call inserted below. ELALT 8 First Call for Papers Download. (Posted 12 March 2026). Versus: Conflict and ...",
+      "cfpDeadline": null,
+      "submissionStatus": "unknown",
+      "officialUrl": "https://essenglish.org/cfp-conferences-november-2026",
+      "sourceUrl": "https://essenglish.org/cfp-conferences-november-2026",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "14th-international-conference-on-sustainability-euagenda-eu-events-2026-07-25-14",
+      "title": "14th International Conference on Sustainability",
+      "startDate": "2026-07-25",
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Technology and education",
+        "Education"
+      ],
+      "description": "in 5 days. 25 Jul 2026. 14th International Conference on Sustainability, Technology and Education 2026. The STE 2026 aims to address the main issues ...",
+      "cfpDeadline": null,
+      "submissionStatus": "unknown",
+      "officialUrl": "https://euagenda.eu/events/2026/07/25/14th-international-conference-on-sustainability-technology-and-education-2026",
+      "sourceUrl": "https://euagenda.eu/events/2026/07/25/14th-international-conference-on-sustainability-technology-and-education-2026",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "top-education-conferences-in-2026-global-list-call-for-educateconference-com-top",
+      "title": "Top Education Conferences in 2026 (Global List + Call for",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-16",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Pedagogy",
+        "Education"
+      ],
+      "description": "Top Education Conferences in 2026 (Global List + Call for Papers). Looking ... Focus on AI in education, digital learning, and pedagogy; Journal ...",
+      "cfpDeadline": null,
+      "submissionStatus": "unknown",
+      "officialUrl": "https://educateconference.com/top-education-conferences-in-2026-global-list-call-for-papers",
+      "sourceUrl": "https://educateconference.com/top-education-conferences-in-2026-global-list-call-for-papers",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "digital-humanities-conference-2026-openscience-lib-cas-cz-en-event-digital-human",
+      "title": "Digital Humanities Conference 2026",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-19",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Digital humanities",
+        "Education",
+        "Humanities"
+      ],
+      "description": "Jan 5, 2026. The European Association for Digital Humanities (EADH) is hosting its 2026 annual conference ... Call for Papers. The deadline for paper ...",
+      "cfpDeadline": null,
+      "submissionStatus": "unknown",
+      "officialUrl": "https://openscience.lib.cas.cz/en/event/digital-humanities-conference-2026",
+      "sourceUrl": "https://openscience.lib.cas.cz/en/event/digital-humanities-conference-2026",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "the-european-conference-on-education-ece-ece-iafor-org-call-for-papers",
+      "title": "The European Conference on Education (ECE)",
+      "startDate": null,
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Education",
+        "Pedagogy"
+      ],
+      "description": "The Call for Papers is now open ... The 14th European Conference on Education (ECE2026) is an interdisciplinary conference ...",
+      "cfpDeadline": "2026-08-11",
+      "submissionStatus": "open",
+      "officialUrl": "https://ece.iafor.org/call-for-papers",
+      "sourceUrl": "https://ece.iafor.org/call-for-papers",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "design2026-the-19th-international-design-conference-www-designsociety-org-1449-d",
+      "title": "DESIGN2026 - The 19th International Design Conference",
+      "startDate": null,
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Design research",
+        "Education"
+      ],
+      "description": "The 19th International Design Conference (DESIGN 2026). Cavtat, Dubrovnik, Croatia 18 - 21 May 2026. DESIGN 2026 - Call for Papers",
+      "cfpDeadline": "2026-10-01",
+      "submissionStatus": "open",
+      "officialUrl": "https://www.designsociety.org/1449/design2026_-_the_19th_international_design_conference",
+      "sourceUrl": "https://www.designsociety.org/1449/design2026_-_the_19th_international_design_conference",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "the-european-conference-on-arts-ecah-iafor-org-call-for-papers",
+      "title": "The European Conference on Arts",
+      "startDate": null,
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Literature",
+        "Education",
+        "Visual art",
+        "Humanities"
+      ],
+      "description": "Call for Papers. The 10th European Conference on Arts & Humanities (ECAH2022) ... Literature/Literary Studies; Political Science, Politics; Teaching and ...",
+      "cfpDeadline": "2026-08-11",
+      "submissionStatus": "open",
+      "officialUrl": "https://ecah.iafor.org/call-for-papers",
+      "sourceUrl": "https://ecah.iafor.org/call-for-papers",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "call-animex-research-and-innovation-conference-2026-ispr-ispr-info-2026-04-01-ca",
+      "title": "Call: Animex Research and Innovation Conference 2026 - ISPR",
+      "startDate": null,
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Creative coding"
+      ],
+      "description": "Apr 1, 2026. Call for Papers: Animex Research and Innovation Conference November 18, 2026 ... Creative coding. Scholarly and creative research frameworks.",
+      "cfpDeadline": "2026-11-18",
+      "submissionStatus": "open",
+      "officialUrl": "https://ispr.info/2026/04/01/call-animex-research-and-innovation-conference-2026",
+      "sourceUrl": "https://ispr.info/2026/04/01/call-animex-research-and-innovation-conference-2026",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "jagiello-skie-centrum-humanistyki-cyfrowej-eadh2026-confer-uj-edu-pl-cfp",
+      "title": "Jagiellońskie Centrum Humanistyki Cyfrowej",
+      "startDate": "2026-09-15",
+      "endDate": "2026-09-19",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Digital humanities",
+        "Humanities",
+        "Literature"
+      ],
+      "description": "European Association for Digital Humanities 2026 Call for Papers Location: Jagiellonian University, Kraków, Poland Dates: 15-19 September 2026.",
+      "cfpDeadline": null,
+      "submissionStatus": "unknown",
+      "officialUrl": "https://eadh2026.confer.uj.edu.pl/cfp",
+      "sourceUrl": "https://eadh2026.confer.uj.edu.pl/cfp",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "page-4-eaas-eaas-eu-news-categories-call-for-papers-page-4",
+      "title": "Page 4 – EAAS",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-04",
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Cultural studies",
+        "Literature"
+      ],
+      "description": "It is our pleasure to invite you to the EAAS 36th Biennial Conference in Bologna on September 1-4, 2026! See below for the Call for papers. Read more. BAAS ...",
+      "cfpDeadline": null,
+      "submissionStatus": "unknown",
+      "officialUrl": "https://eaas.eu/news-categories/call-for-papers/page/4",
+      "sourceUrl": "https://eaas.eu/news-categories/call-for-papers/page/4",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "the-moralization-of-science-www-ghi-dc-org-events-event-date-the-moralization-of",
+      "title": "The Moralization of Science",
+      "startDate": "2026-09-17",
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Science studies",
+        "Education",
+        "Social sciences",
+        "Humanities"
+      ],
+      "description": "The Moralization of Science. Sep 17, 2026 - Sep 18, 2026. Conference at the ... science studies, as well as related disciplines. Call for Papers. Warnings ...",
+      "cfpDeadline": null,
+      "submissionStatus": "unknown",
+      "officialUrl": "https://www.ghi-dc.org/events/event/date/the-moralization-of-science",
+      "sourceUrl": "https://www.ghi-dc.org/events/event/date/the-moralization-of-science",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "ascaad2026-home-ascaad-org-conference-2026",
+      "title": "ASCAAD2026: Home",
+      "startDate": null,
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Creative coding",
+        "Education",
+        "Digital humanities",
+        "Design research",
+        "Humanities"
+      ],
+      "description": "Arabic/English Call for Papers · Papers Submission. theme ... Situated, Adaptive & Responsive Systems • Design Tools, Creative Coding & Hybrid Workflows",
+      "cfpDeadline": "2026-08-16",
+      "submissionStatus": "open",
+      "officialUrl": "https://ascaad.org/conference/2026",
+      "sourceUrl": "https://ascaad.org/conference/2026",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "research-committee-28-on-social-stratification-and-mobility-sites-google-com-sit",
+      "title": "Research Committee 28 on Social Stratification and Mobility",
+      "startDate": null,
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Science studies"
+      ],
+      "description": "... 2026. CALL FOR PAPERS. DeZIM-Conference 2026 “The Contested Normalities of Migration”. The conference aims to examine, from an interdisciplinary perspective ...",
+      "cfpDeadline": "2027-02-11",
+      "submissionStatus": "open",
+      "officialUrl": "https://sites.google.com/site/rc28hp/resources/newsletters/2026",
+      "sourceUrl": "https://sites.google.com/site/rc28hp/resources/newsletters/2026",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
+    },
+    {
+      "id": "eaas-news-call-for-papers-eaas-eu-news-categories-call-for-papers",
+      "title": "EAAS News > Call for Papers",
+      "startDate": null,
+      "endDate": null,
+      "city": null,
+      "country": null,
+      "continent": null,
+      "categories": [
+        "Literature",
+        "Humanities"
+      ],
+      "description": "CFP: WLA 2026. Published: March 16, 2026. Call for Papers · Conferences · Events. The 2026 Western Literature Association Conference August 26-29, 2026 The ...",
+      "cfpDeadline": "2026-11-25",
+      "submissionStatus": "open",
+      "officialUrl": "https://eaas.eu/news-categories/call-for-papers",
+      "sourceUrl": "https://eaas.eu/news-categories/call-for-papers",
+      "lastChecked": "2026-07-20T08:18:31.731Z"
     }
   ]
 }
