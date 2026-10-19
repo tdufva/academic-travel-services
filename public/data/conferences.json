@@ -1,26 +1,8 @@
 {
-  "generatedAt": "2026-10-12T13:13:09.080Z",
+  "generatedAt": "2026-10-19T10:48:56.675Z",
   "generatedBy": "serpapi-google",
   "notes": "Generated from public search results. Values that cannot be confidently extracted are stored as null or unknown. Verify details on official conference websites.",
   "items": [
-    {
-      "id": "sixteenth-interdisciplinary-conference-on-aging-social-change-agingandsocialchan",
-      "title": "Sixteenth Interdisciplinary Conference on Aging & Social Change",
-      "startDate": "2026-10-15",
-      "endDate": "2026-10-16",
-      "city": "Antalya",
-      "country": "Turkey",
-      "continent": "Europe",
-      "categories": [
-        "Critical age studies"
-      ],
-      "description": "Conference dates 15-16 October 2026 at Akdeniz University in Antalya, Turkey. Submission deadline: 15 September 2026. Aging and social change themes include social, cultural, economic, and policy dimensions of aging.",
-      "cfpDeadline": null,
-      "submissionStatus": "unknown",
-      "officialUrl": "https://agingandsocialchange.com/2026-conference/call-for-papers",
-      "sourceUrl": "https://agingandsocialchange.com/2026-conference/call-for-papers",
-      "lastChecked": "2026-10-12T13:13:09.080Z"
-    },
     {
       "id": "generations-at-work-a-fairer-future-for-learning-earning-and-longevity-www-dcu-i",
       "title": "Generations at Work: A Fairer Future for Learning, Earning and Longevity",
@@ -40,7 +22,7 @@
       "submissionStatus": "upcoming",
       "officialUrl": "https://www.dcu.ie/agefriendly/AFU-Conference-2026",
       "sourceUrl": "https://www.dcu.ie/agefriendly/AFU-Conference-2026",
-      "lastChecked": "2026-10-12T13:13:09.080Z"
+      "lastChecked": "2026-10-19T10:48:56.675Z"
     }
   ]
 }
